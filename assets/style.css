@@ -33,7 +33,8 @@ img{max-width:100%}
 .top__in{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px;flex-wrap:wrap}
 .brand{font:400 1.6rem/1 var(--serif);color:#fff;text-decoration:none;letter-spacing:-.01em}
 .brand__amp{color:var(--ocre);margin:0 .04em}
-.top__nav{display:flex;gap:1.25rem;font-weight:600;font-size:.95rem}
+.top__nav{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;font-weight:600;font-size:.95rem}
+.top__nav a{white-space:nowrap}
 .top__nav a{color:#dbe7f0;text-decoration:none}
 .top__nav a:hover{color:#fff;text-decoration:underline}
 
@@ -151,7 +152,7 @@ img{max-width:100%}
 }
 @media (max-width:560px){
   body{font-size:1rem}
-  .top__nav{gap:.9rem;font-size:.9rem}
+  .top__nav{width:100%;gap:.55rem 1.1rem;font-size:.9rem;padding-bottom:.6rem}
   .hero{padding-top:2.25rem}
   .post__in{padding-top:8rem}
   .post .postmark{top:2.2rem}
