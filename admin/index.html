@@ -83,16 +83,21 @@ td.n,th.n{text-align:right}
       <div class="carte"><h2>Pages les plus vues, 7 jours</h2><div class="defile"><table><thead><tr><th>Site</th><th>Page</th><th class="n">Visites</th><th class="n">Clics</th></tr></thead><tbody id="t_pages"></tbody></table></div></div>
       <div class="carte">
         <h2>Clics par partenaire, 30 jours</h2><div id="barres"></div>
-        <h2 style="margin-top:16px">D’où viennent les visiteurs, 30 jours</h2>
+        <h2 style="margin-top:16px">Sites d’origine, 30 jours</h2>
         <div class="defile"><table><thead><tr><th>Origine</th><th class="n">Visites</th></tr></thead><tbody id="t_prov"></tbody></table></div>
         <h2 style="margin-top:16px">Appareils, 30 jours</h2>
         <div class="defile"><table><thead><tr><th>Appareil</th><th class="n">Visites</th></tr></thead><tbody id="t_app"></tbody></table></div>
       </div>
     </div>
 
-    <div class="carte"><h2>En direct : les 30 derniers événements</h2><div class="defile"><table><thead><tr><th>Heure</th><th>Site</th><th>Type</th><th>Page</th><th>Partenaire</th><th>Appareil</th></tr></thead><tbody id="t_live"></tbody></table></div></div>
+    <div class="deux">
+      <div class="carte"><h2>Pays des visiteurs, 30 jours</h2><div class="defile"><table><thead><tr><th>Pays</th><th class="n">Visites</th></tr></thead><tbody id="t_pays"></tbody></table></div></div>
+      <div class="carte"><h2>Villes des visiteurs, 30 jours</h2><div class="defile"><table><thead><tr><th>Ville</th><th>Pays</th><th class="n">Visites</th></tr></thead><tbody id="t_villes"></tbody></table></div><p class="doux">Ville approximative, déduite du réseau du visiteur.</p></div>
+    </div>
 
-    <p class="doux">Mesure sans cookie ni adresse IP. Une visite = une page affichée ; un clic = un clic vers GetYourGuide, Viator ou Elite Prestige Services. Robots exclus, ainsi que cet appareil. Les ventes et commissions réelles sont dans les espaces partenaires.</p>
+    <div class="carte"><h2>En direct : les 30 derniers événements</h2><div class="defile"><table><thead><tr><th>Heure</th><th>Site</th><th>Type</th><th>Page</th><th>Partenaire</th><th>Lieu</th><th>Appareil</th></tr></thead><tbody id="t_live"></tbody></table></div></div>
+
+    <p class="doux">Mesure sans cookie ; l’adresse IP sert seulement à situer la ville et n’est jamais enregistrée. Une visite = une page affichée ; un clic = un clic vers GetYourGuide, Viator ou Elite Prestige Services. Robots exclus, ainsi que cet appareil. Les ventes et commissions réelles sont dans les espaces partenaires.</p>
   </div>
 </div>
 <script>
@@ -149,7 +154,9 @@ td.n,th.n{text-align:right}
     table('t_pages',j.pages,['site','page','vues','clics'],[0,0,1,1]);
     table('t_prov',j.provenance,['origine','vues'],[0,1]);
     table('t_app',j.appareils,['appareil','vues'],[0,1]);
-    table('t_live',j.direct,['heure','site','type','page','partenaire','appareil'],[0,0,0,0,0,0]);
+    table('t_pays',j.pays,['pays','vues'],[0,1]);
+    table('t_villes',j.villes,['ville','pays','vues'],[0,0,1]);
+    table('t_live',j.direct,['heure','site','type','page','partenaire','lieu','appareil'],[0,0,0,0,0,0,0]);
   }
   function load(){
     return fetch(U,{method:'POST',cache:'no-store',headers:{apikey:K,Authorization:'Bearer '+K,'Content-Type':'application/json'},body:JSON.stringify({pw:pw})})
