@@ -122,7 +122,7 @@ SELECTIONS = [
     ),
     dict(
         slug="stations-de-ski-ouvertes", court="Ski : dates d'ouverture", photo="val-thorens",
-        titre="Stations de ski ouvertes : dates d'ouverture 2026-2027",
+        titre="Stations de ski : dates d'ouverture 2026-2027",
         h1="Stations de ski ouvertes : le calendrier 2026-2027",
         description="Quelles stations de ski sont ouvertes en novembre et décembre 2026 ? Dates d'ouverture de Val Thorens, Tignes, Val d'Isère, Chamonix, Courchevel, Méribel, l'Alpe d'Huez et Megève.",
         accroche="Envie de skier tôt ? Voici les dates d'ouverture annoncées par les grandes stations des Alpes pour la saison 2026-2027, de la plus précoce à la plus tardive.",

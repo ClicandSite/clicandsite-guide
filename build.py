@@ -14,7 +14,7 @@ import photos as _ph
 import og as _og
 import importlib
 # Régions ajoutées sous forme de modules content_<region>_fr.py / content_<region>_en.py
-EXTRA_REGIONS = ["paris", "alpes"]
+EXTRA_REGIONS = ["paris", "alpes", "alsace"]
 _XF = [importlib.import_module(f"content_{x.replace('-', '_')}_fr") for x in EXTRA_REGIONS]
 _XE = [importlib.import_module(f"content_{x.replace('-', '_')}_en") for x in EXTRA_REGIONS]
 def _merge(mods, attr):
@@ -86,11 +86,11 @@ RIVIERA_ITI_TIPS = {
 }
 if LANG == "fr":
     _base, _seoT, _treg, _titi, _about, _alias, _grp, _iti, _prochaines, _mods = _c, _seo.TITRES, _seo.TITRE_REGION, _seo.TITRE_ITI, _seo.A_PROPOS, _seo.ALIAS, _m.GROUPES, _m.ITINERAIRE, _c.PROCHAINES_REGIONS, _XF
-    _about_last = "Nous avons commencé par la Côte d'Azur, que nous connaissons le mieux, puis Paris et les Alpes. Les autres régions arrivent une par une."
+    _about_last = "Nous avons commencé par la Côte d'Azur, que nous connaissons le mieux, puis Paris, les Alpes et l'Alsace. Les autres régions arrivent une par une."
     DESTINATIONS = _typo(_c.DESTINATIONS + _m.PLUS + sum([m.DESTINATIONS for m in _XF], []))
 else:
     _base, _seoT, _treg, _titi, _about, _alias, _grp, _iti, _prochaines, _mods = _en, _en.TITRES, _en.TITRE_REGION, _en.TITRE_ITI, _en.ABOUT, _en.ALIAS, _en.GROUPES, _en.ITINERAIRE, _en.PROCHAINES_REGIONS, _XE
-    _about_last = "We started with the French Riviera, which we know best, then Paris and the Alps. Other regions are on their way, one by one."
+    _about_last = "We started with the French Riviera, which we know best, then Paris, the Alps and Alsace. Other regions are on their way, one by one."
     DESTINATIONS = _typo(_en.DESTINATIONS + sum([m.DESTINATIONS for m in _XE], []))
 _names = {m.REGION["nom"] for m in _mods} | {"Paris", "Alpes", "the Alps", "Alps"}
 REGIONS = _typo([dict(_base.REGIONS[0], **RIVIERA_EXTRA[LANG])] + [m.REGION for m in _mods])
@@ -110,7 +110,7 @@ for _r in REGIONS:
 LIEU_VOIR = _typo(dict(_seo.LIEU_VOIR, **_merge(_XF, "LIEU_VOIR")))
 LIEU_ALLER = _typo(dict(_seo.LIEU_ALLER, **_merge(_XF, "LIEU_ALLER")))
 GEO = dict(_seo.GEO, **_merge(_XF, "GEO"))
-HOME_ORDER = ["alpes", "paris", "cote-d-azur"]
+HOME_ORDER = ["alsace", "alpes", "paris", "cote-d-azur"]
 SELS = _typo((_sf if LANG == "fr" else _se).SELECTIONS)
 IDX = _typo((_sf if LANG == "fr" else _se).INDEX)
 for _x in SELS:

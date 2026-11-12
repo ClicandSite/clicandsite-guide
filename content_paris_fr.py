@@ -599,7 +599,7 @@ TITRES = {
     "versailles": "Visiter Versailles depuis Paris : réservation",
     'disneyland-paris': 'Disneyland Paris : billets, accès en RER, conseils',
     'catacombes': 'Catacombes de Paris : réservation, visite, conseils',
-    'noel-a-paris': 'Noël à Paris 2026 : illuminations, marchés, patinoires',
+    'noel-a-paris': 'Noël à Paris 2026 : illuminations et marchés de Noël',
 }
 TITRE_REGION = "Visiter Paris : les plus beaux sites et conseils"
 TITRE_ITI = "Paris en 3 jours : itinéraire en métro"
