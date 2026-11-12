@@ -220,7 +220,6 @@ PLUS = [
         ],
         "faq": [
             ("Quand a lieu la Fête du Citron à Menton ?", "Chaque année en février, pendant environ deux semaines, avec des corsos et des sculptures d'agrumes dans les jardins Biovès."),
-            ("Quelles sont les dates de la Fête du Citron 2027 ?", "La 93e Fête du Citron se tient du 13 au 28 février 2027. Les sculptures d'agrumes sont exposées aux jardins Biovès pendant toute la durée de la fête, le corso des fruits d'or défile le dimanche et des corsos nocturnes ont lieu les 18 et 25 février : réservez vos places et votre hébergement à l'avance."),
             ("Peut-on aller en Italie depuis Menton ?", "Oui, en train : Vintimille est à quelques minutes, et la ligne continue vers San Remo."),
             ("Menton a-t-elle des plages ?", "Oui, plusieurs plages de galets et de sable mêlés, de part et d'autre de la vieille ville."),
         ],

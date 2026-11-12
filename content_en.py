@@ -400,7 +400,6 @@ DESTINATIONS = [
        ],
        faq=[
            ("When is the Menton Lemon Festival?", "Every February for about two weeks, with parades and citrus sculptures in the Biovès gardens."),
-           ("What are the dates of the 2027 Lemon Festival?", "The 93rd Fête du Citron runs from 13 to 28 February 2027. The citrus sculptures stand in the Biovès gardens throughout, the Golden Fruit parade runs on Sundays and there are night parades on 18 and 25 February: book seats and accommodation early."),
            ("Can you go to Italy from Menton?", "Yes, by train: Ventimiglia is minutes away, and the line continues to Sanremo."),
            ("Does Menton have beaches?", "Yes, several pebble and mixed sand-and-pebble beaches on either side of the old town."),
        ]),
