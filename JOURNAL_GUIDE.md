@@ -20,6 +20,7 @@
 7. Ensuite : Provence (prioritaire à partir de mars), Bretagne, Pays basque, Lyon, Bordeaux
 
 ## Journal
+- 12/11/2026 (routine, 00:30 UTC) : ÉCHEC DE PUBLICATION ÉVITÉ. La branche `sources` (ff18b2b et avant) est EN RETARD sur le site publié : main contient déjà Alsace (Strasbourg, Colmar, Riquewihr, Kaysersberg), Avoriaz, Les Arcs, La Plagne, Provence (Aix, Avignon...), Amboise, etc., publiés le 12/11 vers 00:25 UTC depuis des sources non poussées. Une publication depuis `sources` a supprimé ces pages pendant ~1 min, puis main a été restauré à l'identique (eeddd36 FR, c98e86d EN). Le travail de la routine (Strasbourg/Colmar) a été annulé sur `sources` (doublon). À FAIRE : pousser les vraies sources sur la branche `sources` avant toute nouvelle routine. Garde-fou : avant de publier, comparer la liste des pages de site/ avec celle de main et refuser si des pages disparaissent.
 - 11/11/2026 (session manuelle) : région Alpes créée (8 stations), 3 guides Paris ajoutés, boutons partenaires refaits, recherches GetYourGuide/Viator ancrées sur le lieu (fonction anchored dans build.py).
 - 11/11/2026 (session manuelle) : 4 pages Idées avec agenda (Carnaval de Nice 9-28 févr. 2027, Fête du Citron 13-28 févr., Mimosa 10-14 févr., cirque de Monte-Carlo 22-31 janv., expos Paris), lien « Idées » dans le menu et section sur l'accueil.
 
