@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="robots" content="noindex, nofollow">
 <title>Tableau de bord – Clic&amp;Site</title>
 <link rel="icon" href="/assets/favicon-48.png?v=2" sizes="48x48" type="image/png">
@@ -45,6 +45,24 @@ td.n,th.n{text-align:right}
 #login input{width:100%;padding:10px;border:1px solid var(--ligne);border-radius:8px;margin:12px 0}
 #erreur{color:var(--ko);min-height:1.2em}
 .point{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px}
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding:12px}
+  .v{font-size:1.6rem}
+  .kpis{grid-template-columns:1fr 1fr}
+  .deux{grid-template-columns:1fr}
+  .defile{overflow:visible}
+  table.cartes thead{display:none}
+  table.cartes,table.cartes tbody,table.cartes tr,table.cartes td{display:block;width:100%}
+  table.cartes tbody tr{border:1px solid var(--ligne);border-radius:10px;padding:6px 10px;margin:0 0 8px;background:#fcfbf8}
+  table.cartes td{display:flex;justify-content:space-between;gap:12px;border:0;padding:3px 0;text-align:right;word-break:normal;overflow-wrap:anywhere}
+  table.cartes td::before{content:attr(data-l);color:var(--doux);font-size:.8rem;text-align:left;flex:0 0 auto}
+  table.cartes td:empty{display:none}
+  table.cartes td.doux{display:block;text-align:left}
+  table.cartes td.doux::before{content:none}
+  td{font-size:.95rem}
+}
+input,button{font-size:16px}
 </style>
 </head>
 <body>
@@ -81,7 +99,7 @@ td.n,th.n{text-align:right}
     </div>
 
     <div class="deux">
-      <div class="carte"><h2>Pages les plus vues, 7 jours</h2><div class="defile"><table><thead><tr><th>Site</th><th>Page</th><th class="n">Visites</th><th class="n">Clics</th></tr></thead><tbody id="t_pages"></tbody></table></div></div>
+      <div class="carte"><h2>Pages les plus vues, 7 jours</h2><div class="defile"><table class="cartes"><thead><tr><th>Site</th><th>Page</th><th class="n">Visites</th><th class="n">Clics</th></tr></thead><tbody id="t_pages"></tbody></table></div></div>
       <div class="carte">
         <h2>Clics par partenaire, 30 jours</h2><div id="barres"></div>
         <h2 style="margin-top:16px">Sites d’origine, 30 jours</h2>
@@ -96,7 +114,7 @@ td.n,th.n{text-align:right}
       <div class="carte"><h2>Villes des visiteurs, 30 jours</h2><div class="defile"><table><thead><tr><th>Ville</th><th>Pays</th><th class="n">Visites</th></tr></thead><tbody id="t_villes"></tbody></table></div><p class="doux">Ville approximative, déduite du réseau du visiteur.</p></div>
     </div>
 
-    <div class="carte"><h2>En direct : les 30 derniers événements</h2><div class="defile"><table><thead><tr><th>Heure</th><th>Site</th><th>Type</th><th>Page</th><th>Partenaire</th><th>Lieu</th><th>Appareil</th></tr></thead><tbody id="t_live"></tbody></table></div></div>
+    <div class="carte"><h2>En direct : les 30 derniers événements</h2><div class="defile"><table class="cartes"><thead><tr><th>Heure</th><th>Site</th><th>Type</th><th>Page</th><th>Partenaire</th><th>Lieu</th><th>Appareil</th></tr></thead><tbody id="t_live"></tbody></table></div></div>
 
     <p class="doux">Mesure sans cookie ; l’adresse IP sert seulement à situer la ville et n’est jamais enregistrée. Une visite = une page affichée ; un clic = un clic vers GetYourGuide, Viator ou Elite Prestige Services. Robots exclus, ainsi que cet appareil. Les ventes et commissions réelles sont dans les espaces partenaires.</p>
   </div>
@@ -109,11 +127,11 @@ td.n,th.n{text-align:right}
   try{localStorage.setItem('cs_nostats','1');pw=localStorage.getItem('cs_admin');}catch(e){}
   var nf=function(n){return Number(n||0).toLocaleString('fr-FR')};
   function txt(id,v){$(id).textContent=v}
-  function cell(tr,v,num){var td=tr.insertCell();td.textContent=num?nf(v):(v==null?'':String(v));if(num)td.className='n'}
+  function cell(tr,v,num,lab){var td=tr.insertCell();td.textContent=num?nf(v):(v==null?'':String(v));if(num)td.className='n';if(lab)td.setAttribute('data-l',lab)}
   function table(id,rows,cols,nums){
     var tb=$(id);tb.replaceChildren();
     if(!rows||!rows.length){var td=tb.insertRow().insertCell();td.colSpan=cols.length;td.className='doux';td.textContent='Rien encore sur cette période.';return}
-    rows.forEach(function(r){var tr=tb.insertRow();cols.forEach(function(c,i){cell(tr,r[c],nums[i])})});
+    var labs=[].map.call(tb.parentNode.querySelectorAll('thead th'),function(th){return th.textContent});rows.forEach(function(r){var tr=tb.insertRow();cols.forEach(function(c,i){cell(tr,r[c],nums[i],labs[i])})});
   }
   function delta(id,c,p){var el=$(id);el.className='d';if(!+p){el.textContent='pas encore de semaine à comparer';return}var v=Math.round(100*(c-p)/p);el.textContent=(v>=0?'+':'')+v+' % vs les 7 jours d’avant';el.classList.add(v>=0?'up':'down')}
   function graph(data){
