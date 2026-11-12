@@ -121,10 +121,10 @@ input,button{font-size:16px}
 </div>
 <script>
 (function(){
-  var U='https://avcynjwcyygygkjuxsdt.supabase.co/rest/v1/rpc/guide_stats',K='sb_publishable_fdSM-pnUtZRKX7K6nOf5Ag_i1TQgqLO';
+  var R='https://avcynjwcyygygkjuxsdt.supabase.co/rest/v1/rpc/',K='sb_publishable_fdSM-pnUtZRKX7K6nOf5Ag_i1TQgqLO';
   var $=function(id){return document.getElementById(id)};
-  var pw=null,timer=null;
-  try{localStorage.setItem('cs_nostats','1');pw=localStorage.getItem('cs_admin');}catch(e){}
+  var tok=null,timer=null;
+  try{localStorage.setItem('cs_nostats','1');localStorage.removeItem('cs_admin');tok=localStorage.getItem('cs_admin_tok');}catch(e){}
   var nf=function(n){return Number(n||0).toLocaleString('fr-FR')};
   function txt(id,v){$(id).textContent=v}
   function cell(tr,v,num,lab){var td=tr.insertCell();td.textContent=num?nf(v):(v==null?'':String(v));if(num)td.className='n';if(lab)td.setAttribute('data-l',lab)}
@@ -177,20 +177,21 @@ input,button{font-size:16px}
     table('t_villes',j.villes,['ville','pays','vues'],[0,0,1]);
     table('t_live',j.direct,['heure','site','type','page','partenaire','lieu','appareil'],[0,0,0,0,0,0,0]);
   }
-  function load(){
-    return fetch(U,{method:'POST',cache:'no-store',headers:{apikey:K,Authorization:'Bearer '+K,'Content-Type':'application/json'},body:JSON.stringify({pw:pw})})
-      .then(function(r){return r.json().then(function(j){if(!r.ok)throw Object.assign(new Error(j.message||'erreur'),{auth:r.status===401||r.status===403||/mot de passe/.test(j.message||'')});return j})});
-  }
-  function refresh(){load().then(function(j){$('login').hidden=true;$('tb').hidden=false;draw(j)}).catch(function(e){if(e.auth)logout('Mot de passe incorrect.')})}
+  function rpc(fn,body){return fetch(R+fn,{method:'POST',cache:'no-store',headers:{apikey:K,Authorization:'Bearer '+K,'Content-Type':'application/json'},body:JSON.stringify(body)}).then(function(r){return r.text().then(function(t){var j=t?JSON.parse(t):null;if(!r.ok)throw new Error((j&&j.message)||'erreur');return j})})}
+  function load(){return rpc('guide_stats_t',{tok:tok}).then(function(j){if(j&&j.erreur)throw Object.assign(new Error(j.erreur),{auth:true});return j})}
+  function refresh(){load().then(function(j){$('login').hidden=true;$('tb').hidden=false;draw(j)}).catch(function(e){if(e.auth)logout('Session expirée, reconnecte-toi.')})}
   function start(){refresh();clearInterval(timer);timer=setInterval(function(){if(!document.hidden)refresh()},30000)}
-  function logout(msg){clearInterval(timer);pw=null;try{localStorage.removeItem('cs_admin')}catch(e){}$('tb').hidden=true;$('login').hidden=false;txt('erreur',msg||'');$('mdp').value='';$('mdp').focus()}
-  $('login').addEventListener('submit',function(ev){ev.preventDefault();pw=$('mdp').value;txt('erreur','');
-    load().then(function(j){try{localStorage.setItem('cs_admin',pw)}catch(e){}$('login').hidden=true;$('tb').hidden=false;draw(j);start()}).catch(function(e){pw=null;txt('erreur',e.auth?'Mot de passe incorrect.':'Connexion impossible, réessaie.')})});
+  function logout(msg,serveur){clearInterval(timer);if(serveur&&tok)rpc('guide_logout',{tok:tok}).catch(function(){});tok=null;try{localStorage.removeItem('cs_admin_tok')}catch(e){}$('tb').hidden=true;$('login').hidden=false;txt('erreur',msg||'');$('mdp').value=''}
+  $('login').addEventListener('submit',function(ev){ev.preventDefault();var pw=$('mdp').value;txt('erreur','');
+    rpc('guide_login',{pw:pw}).then(function(j){
+      if(!j||!j.token){txt('erreur',j&&j.erreur==='bloque'?'Trop d’essais : réessaie dans 15 minutes.':'Mot de passe incorrect.');return}
+      tok=j.token;try{localStorage.setItem('cs_admin_tok',tok)}catch(e){}$('mdp').value='';start()
+    }).catch(function(){txt('erreur','Connexion impossible, réessaie.')})});
   $('actu').addEventListener('click',refresh);
-  $('sortir').addEventListener('click',function(){logout('')});
-  document.addEventListener('visibilitychange',function(){if(!document.hidden&&pw)refresh()});
-  var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(function(){if(pw)refresh()},300)});
-  if(pw)start();else $('login').hidden=false;
+  $('sortir').addEventListener('click',function(){logout('',true)});
+  document.addEventListener('visibilitychange',function(){if(!document.hidden&&tok)refresh()});
+  var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(function(){if(tok)refresh()},300)});
+  if(tok)start();else $('login').hidden=false;
 })();
 </script>
 </body>
