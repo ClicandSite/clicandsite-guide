@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://clicandsite.fr/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://clicandsite.fr/cote-d-azur/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://clicandsite.fr/paris/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://clicandsite.fr/alpes/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://clicandsite.fr/cote-d-azur/monaco/</loc><lastmod>2026-11-11</lastmod></url>
@@ -151,4 +151,10 @@
   <url><loc>https://clicandsite.fr/provence/arles/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://clicandsite.fr/provence/camargue/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://clicandsite.fr/provence/isle-sur-la-sorgue/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/la-croisette/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/le-suquet/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/vieux-nice/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/promenade-des-anglais/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/port-lympia/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/place-massena/</loc><lastmod>2026-11-12</lastmod></url>
 </urlset>
