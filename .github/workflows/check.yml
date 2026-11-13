@@ -1,0 +1,16 @@
+name: linkcheck
+on: push
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
+          while read u; do
+            code=$(curl -sL -A "$UA" -H 'Accept-Language: fr-FR,fr;q=0.9' -o p.html -w '%{http_code} %{url_effective}' "$u")
+            n=$(grep -o 'href="/fr-FR/tours/[^"]*' p.html | sort -u | wc -l)
+            first=$(grep -o 'href="/fr-FR/tours/[^"]*' p.html | sed 's#href="/fr-FR/tours/##' | sort -u | head -3 | tr '\n' ' ')
+            echo "RES|$u|$code|$n|$first"
+            sleep 1
+          done < urls.txt
