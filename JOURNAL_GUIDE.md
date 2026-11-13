@@ -107,3 +107,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 13/11/2026 : page gouffre de Padirac (lot/gouffre-de-padirac), photo prise par Anthony, créditée « Clic&Site ». Saison 2026 : 28 mars – 1er nov. Tarifs non publiés (sources contradictoires). À faire : ajouter Padirac dans les cartes « autres sites » de Rocamadour et Saint-Cirq.
 - 13/11/2026 : nouvelle région Corse (corse/ FR, corsica/ EN) : hub + Ajaccio, Bastia, Bonifacio, Porto-Vecchio, îles Lavezzi. Photos Unsplash (crédits mentions légales). Nav « Corse » après Lot, carte accueil (2A 2B). Pistes suivantes : Calvi, calanques de Piana, Corte, Cap Corse.
 - 13/11/2026 : Corse + Calvi (Unsplash Hannah Wright) et Piana (Commons Jean-Pol GRANDMONT, CC BY 3.0). Corse = 7 guides. Les anciennes pages Corse ne listent pas encore Calvi/Piana dans « autres sites » (à rafraîchir).
+- 13/11/2026 : page falaises-de-bonifacio (Corse, 8 guides), photo Unsplash Petr Slováček.
