@@ -113,3 +113,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 14/11/2026 : page beaulieu-sur-mer (villa Kérylos, 42 guides), photo Commons Finoskov CC BY-SA 3.0 (Category:Villa_Kérylos). Prix non affichés (13 € officiel vs 15 € OT). Reste Cap d’Antibes.
 - 14/11/2026 : page cap-d-antibes (43 guides), photo Commons Spike CC BY-SA 4.0 (baie des Milliardaires, crop 1245px agrandi ; lien Category:Cap_d%27Antibes).
 - 14/11/2026 : page la-malmaison (44 guides), photo Commons Benoît Prieur CC0 ; lien depuis la page Cannes.
+- 14/11/2026 : index Côte d’Azur réorganisé par ville. Sections : g-cannes, g-nice, g-antibes, g-monaco, g-capferrat (Villefranche→Menton), g-esterel (Estérel→St-Tropez), g-villages, g-nature, g-fetes. Pour une nouvelle page CdA, mettre SECTION={fr:(id,"",""),en:(id,"","")} dans le content (g-mer et g-quartiers n’existent plus).
