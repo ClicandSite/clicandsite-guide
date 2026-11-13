@@ -99,3 +99,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 
 - 13/11/2026 : page Bergerac ajoutée (aquitaine/bergerac, FR+EN), photo Commons Benjamin Smith CC BY-SA 4.0, crédit dans mentions légales. Section histoire déjà faite. Restent à faire faute de photos libres : Lascaux, Castelnaud, Milandes, Marqueyssac.
 - 13/11/2026 : page Lascaux (aquitaine/lascaux, FR+EN), photo Commons Eline13Viki (licence exacte à confirmer et à ajouter au crédit). Tarifs Lascaux IV 2026 : 23/22/15 €, jumelés Thot 26,50 / Lascaux II 29.
+- 13/11/2026 : page château de Castelnaud (aquitaine/chateau-de-castelnaud). Auteur + licence photo Castelnaud-Castle-1.JPG à compléter (attente capture Anthony), idem Lascaux. Tarifs 2026 : 13,60 / 6,80 (10-17) / gratuit -10.
