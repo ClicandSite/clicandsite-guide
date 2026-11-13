@@ -109,3 +109,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 13/11/2026 : Corse + Calvi (Unsplash Hannah Wright) et Piana (Commons Jean-Pol GRANDMONT, CC BY 3.0). Corse = 7 guides. Les anciennes pages Corse ne listent pas encore Calvi/Piana dans « autres sites » (à rafraîchir).
 - 13/11/2026 : page falaises-de-bonifacio (Corse, 8 guides), photo Unsplash Petr Slováček.
 - 14/11/2026 : pages Théoule-sur-Mer et Mandelieu-la-Napoule (Côte d’Azur, 40 guides), photos Commons Txllxt TxllxT et Yves Tennevin (licences à confirmer). Bloc chauffeur Elite Prestige inclus. À corriger : 4 cartes de la page Côte d’Azur (Biot, îles de Lérins, Estérel, Porquerolles) utilisent des images hébergées sur Wikimedia au lieu de assets/photos.
+- 14/11/2026 : page villa-ephrussi-de-rothschild (Côte d’Azur, 41 guides), photo Unsplash Hugo Richard. Tarifs 18/12 €, gratuit -7. Beaulieu et Cap d’Antibes en attente de photos Commons.
