@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://clicandsite.fr/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://clicandsite.fr/cote-d-azur/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://clicandsite.fr/paris/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://clicandsite.fr/alpes/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://clicandsite.fr/cote-d-azur/monaco/</loc><lastmod>2026-11-11</lastmod></url>
@@ -193,4 +193,6 @@
   <url><loc>https://clicandsite.fr/corse/calvi/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://clicandsite.fr/corse/piana/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://clicandsite.fr/corse/falaises-de-bonifacio/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/theoule-sur-mer/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://clicandsite.fr/cote-d-azur/mandelieu-la-napoule/</loc><lastmod>2026-11-13</lastmod></url>
 </urlset>
