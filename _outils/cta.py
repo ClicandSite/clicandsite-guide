@@ -1,7 +1,7 @@
 # Ajoute (idempotent) : encadré « À réserver » après l'intro, liens d'action stylés, barre collante mobile.
 import re,glob,sys,html
-T={'fr':dict(k='À réserver',d='Annulation gratuite sur la plupart des activités · Prix affichés avant de payer',b='Prendre mes billets',v='ou sur Viator',bar='Activités à réserver',barb='Mes billets'),
-   'en':dict(k='Book ahead',d='Free cancellation on most activities · Prices shown before you pay',b='Get my tickets',v='or on Viator',bar='Things to book',barb='Get tickets')}
+T={'fr':dict(k='À réserver',d='Annulation gratuite sur la plupart des activités · Prix affichés avant de payer',b='Billets',v='ou autres billets',bar='Activités à réserver',barb='Billets'),
+   'en':dict(k='Book ahead',d='Free cancellation on most activities · Prices shown before you pay',b='Tickets',v='or more tickets',bar='Things to book',barb='Tickets')}
 ARROW='<svg class="cta-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 STAR='<svg class="cta-box__i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" fill="currentColor"/></svg>'
 for root,lang in [('/home/claude/clicandsite-guide','fr'),('/home/claude/clicandsite-guide-en','en')]:
