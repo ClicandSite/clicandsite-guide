@@ -101,3 +101,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 13/11/2026 : page Lascaux (aquitaine/lascaux, FR+EN), photo Commons Eline13Viki (licence exacte à confirmer et à ajouter au crédit). Tarifs Lascaux IV 2026 : 23/22/15 €, jumelés Thot 26,50 / Lascaux II 29.
 - 13/11/2026 : page château de Castelnaud (aquitaine/chateau-de-castelnaud). Auteur + licence photo Castelnaud-Castle-1.JPG à compléter (attente capture Anthony), idem Lascaux. Tarifs 2026 : 13,60 / 6,80 (10-17) / gratuit -10.
 - 13/11/2026 : page château des Milandes (aquitaine/chateau-des-milandes), photo Renhour48 (licence à confirmer). Tarifs 2026 : 15 / 9,50 (5-16) / 12,50 étudiant / 11,50 PMR.
+- 13/11/2026 : page jardins de Marqueyssac (aquitaine/jardins-de-marqueyssac), photo Inga Tomane CC BY-SA 4.0. Aquitaine = 12 guides. Licences encore à confirmer : Lascaux, Castelnaud (auteur aussi), Milandes.
