@@ -8,7 +8,7 @@ PAGES = {
   # clé : (chemin FR, chemin EN)
   'le-suquet': {
     'fr': 'cote-d-azur/le-suquet', 'en': 'french-riviera/le-suquet',
-    'gyg_q': 'Le Suquet, Cannes',
+    
     'via_all': 'Cannes-attractions/Le-Suquet/d786-a1817',
     'via': [  # vérifiées le 14/11/2026
       ('tours/Cannes/Guided-Tour-in-Cannes-History-Glamour-and-Cinema/d786-183050P4',
@@ -35,22 +35,40 @@ def block(cfg, lang):
                  f'<span class="pick__t">{html.escape(tt)}</span><span class="pick__d">{html.escape(dd)}</span>{ARR}</a></li>')
     return (f'<!--acts:start--><div class="live" id="sur-place"><h3 class="live__t">{t["h"]}</h3>'
             f'<div class="live__gyg"><p class="live__s">{t["sub"]} · GetYourGuide</p>'
-            f'<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-locale-code="{t["loc"]}" data-gyg-widget="activities" data-gyg-number-of-items="4" data-gyg-cmp="{camp}" data-gyg-partner-id="XMYSXGR" data-gyg-q="{cfg["gyg_q"]}"></div></div>'
-            f'<p class="live__s live__s--via">{t["sel"]}</p><ul class="picks">{rows}</ul>'
-            f'<p class="live__all"><a href="https://www.viator.com/{t["pre"]}{cfg["via_all"]}?{PID}{camp}" rel="sponsored nofollow noopener" target="_blank">{t["all"]}{ARR}</a></p>'
+            f'<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-locale-code="{t["loc"]}" data-gyg-widget="activities" data-gyg-number-of-items="4" data-gyg-cmp="{camp}" data-gyg-partner-id="XMYSXGR" data-gyg-location-id="{cfg["gyg_loc"]}"></div></div>'
+            + (f'<p class="live__s live__s--via">{t["sel"]}</p><ul class="picks">{rows}</ul>' if rows else '') +
+            f'<p class="live__all"><a href="{cfg["via_all_url"]}" rel="sponsored nofollow noopener" target="_blank">{t["all"]}{ARR}</a></p>'
             '<script>(function(){var d=document.querySelector(".live__gyg");if(!d)return;function l(){if(window.__gyg)return;window.__gyg=1;if(innerWidth<700)d.querySelector("[data-gyg-widget]").setAttribute("data-gyg-number-of-items","2");var s=document.createElement("script");s.async=1;s.src="https://widget.getyourguide.com/dist/pa.umd.production.min.js";s.setAttribute("data-gyg-partner-id","XMYSXGR");document.body.appendChild(s)}'
             'if("IntersectionObserver"in window){var o=new IntersectionObserver(function(e){if(e[0].isIntersecting){l();o.disconnect()}},{rootMargin:"600px"});o.observe(d)}else l()})();</script>'
             '</div><!--acts:end-->')
 def apply(root, lang):
-    for key, cfg in PAGES.items():
-        p = os.path.join(root, cfg[lang], 'index.html'); s = open(p, encoding='utf-8').read()
+    n = 0
+    for dp, dn, fn in os.walk(root):
+        if '/.git' in dp or 'index.html' not in fn: continue
+        p = os.path.join(dp, 'index.html'); s = open(p, encoding='utf-8').read()
+        if 'class="book__lead"' not in s: continue
+        rel = os.path.relpath(dp, root).replace(os.sep, '/')
+        cfg = next((dict(c) for c in PAGES.values() if c[lang] == rel), {'via': []})
+        cfg[lang] = rel
+        m = re.search(r'getyourguide\.(?:fr|com)/[^"?]*?-l(\d+)/', s)
+        if not m: print('sans lieu GYG', p); continue
+        cfg['gyg_loc'] = m.group(1)
+        if cfg.get('via_all'):
+            camp = f"clicandsite-{lang}-{rel.replace('/', '-')}"
+            cfg['via_all_url'] = f"https://www.viator.com/{T[lang]['pre']}{cfg['via_all']}?{PID}{camp}"
+        else:
+            v = re.search(r'href="(https://www\.viator\.com/[^"]+)"', s)
+            if not v: print('sans Viator', p); continue
+            cfg['via_all_url'] = v.group(1)
         b = block(cfg, lang)
         if '<!--acts:start-->' in s:
             s = re.sub(r'<!--acts:start-->.*?<!--acts:end-->', lambda m: b, s, flags=re.S)
         else:
             s = re.sub(r'(<p class="book__lead">.*?</p>)', lambda m: m.group(1) + '\n      ' + b, s, count=1, flags=re.S)
         if 'activites.css' not in s:
-            s = s.replace('/style.css?v=aff1114">', '/style.css?v=aff1114"><link rel="stylesheet" href="../../assets/activites.css?v=1">', 1)
-        open(p, 'w', encoding='utf-8').write(s); print('ok', lang, cfg[lang])
+            depth = rel.count('/') + 1
+            s = re.sub(r'(<link[^>]+assets/style\.css\?v=[^"]*">)', lambda m: m.group(1) + f'<link rel="stylesheet" href="{"../"*depth}assets/activites.css?v=1">', s, count=1)
+        open(p, 'w', encoding='utf-8').write(s); n += 1
+    print(lang, n, 'pages')
 if __name__ == '__main__':
     apply(sys.argv[1], 'fr'); apply(sys.argv[2], 'en')
