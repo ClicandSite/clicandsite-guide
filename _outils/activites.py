@@ -14,7 +14,8 @@ GYG_TOURS = {'cote-d-azur/cannes': '95337,243442,65370,641064', 'french-riviera/
              'paris/notre-dame': '1156458,778850,525225,1239537',
              'paris/sainte-chapelle': '828673,525225,233477',
              'paris/pantheon': '70680,1428204,497728',
-             'paris/invalides': '70627,1148557,463678,1501481'}
+             'paris/invalides': '70627,1148557,463678,1501481',
+             'paris/conciergerie': '222147,525225'}
 LOC_OVERRIDE = {'132103': '201172'}
 PAGES = {
   # clé : (chemin FR, chemin EN)
