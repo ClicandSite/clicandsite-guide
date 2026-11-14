@@ -187,3 +187,7 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 
 ## 2026-11-14 — Notre-Dame : widget GYG
 - Le 2e résultat était un déjeuner à la Brasserie Madame (tour Eiffel). Remplacé par : visite guidée du chef-d’œuvre restauré (t1156458), intérieur et extérieur avec guide (t778850), Sainte-Chapelle + Conciergerie + Notre-Dame (t525225), visite avec guide francophone (t1239537). Rendu vérifié dans le widget. FR + EN.
+
+## 2026-11-14 — Sainte-Chapelle : widget GYG
+- Demande d’Anthony : Sainte-Chapelle + extérieur de Notre-Dame (t828673), Sainte-Chapelle + Conciergerie (t525225), plus visite en petit groupe (t233477). FR + EN.
+- Correctif : quand on fixe moins de 4 activités, GYG complétait avec n’importe quoi (une croisière). Le widget affiche maintenant exactement le nombre d’activités choisies (Arc de Triomphe : 2, Sainte-Chapelle : 3).
