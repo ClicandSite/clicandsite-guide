@@ -118,3 +118,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 14/11/2026 : page plages-electroniques (g-fetes, 45 guides), photo Unsplash Jim Thirion 5wSTD4OwPFo. Dates 2027 (6-8 août) issues d’agrégateurs : vérifier sur plages-electroniques.com quand annoncées officiellement.
 - 14/11/2026 : pages palais-princier, jardin-exotique-monaco (g-monaco), colline-du-chateau (g-nice) — 48 guides CdA. Liées depuis monaco/nice. Restent sans photo libre : Musée océanographique (bâtiment), musée Matisse, musée Chagall, cours Saleya → demander photos Commons à Anthony.
 - 14/11/2026 : page marche-forville (g-cannes, 49 guides), photo Commons Draupnir3 CC BY-SA 3.0 (couleurs retouchées). Palais des Festivals : photo Commons refusée (800px, hommage 2015) → attendre photo d’Anthony.
+- 14/11/2026 : page musee-chagall (g-nice, 50 guides), photo Commons Derbrauni CC BY-SA 4.0 (lien Category).
