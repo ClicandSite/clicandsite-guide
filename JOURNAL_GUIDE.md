@@ -203,3 +203,6 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 
 ## 2026-11-14 — Fondation Louis Vuitton
 - GYG n’a aucune activité propre à la Fondation (sa page l4985 montre Disneyland, croisières…). Les 5 liens GYG de la page (FR + EN) pointent maintenant vers l’entrée Viator de la Fondation (d479-466185P14, testée), et le widget GYG est retiré du bloc (GYG_TOURS = « - »). Reste la sélection Viator.
+
+## 2026-11-14 — Musée Picasso : widget GYG
+- Demande d’Anthony : billet musée Picasso + croisière en option (t432084), visite privée « L’artiste amoureux » (t1272547). Rendu vérifié. FR + EN.
