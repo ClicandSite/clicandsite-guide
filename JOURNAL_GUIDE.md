@@ -184,3 +184,6 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 ## 2026-11-14 — Tour Eiffel : widget GYG
 - Le widget montrait une croisière et le restaurant. Remplacé par 4 activités de la tour : billet 2e étage/sommet (t149861), accès réservé sommet ou 2e étage (t403969), visite guidée avec sommet en option (t29942), sommet ou 2e étage avec guide (t983435). FR + EN.
 - Tour Eiffel, à la demande d’Anthony : ordre final t62484 (sommet ou 2e étage, ~18 000 avis), t403497 (2e étage et sommet en ascenseur), t983435, t403969.
+
+## 2026-11-14 — Notre-Dame : widget GYG
+- Le 2e résultat était un déjeuner à la Brasserie Madame (tour Eiffel). Remplacé par : visite guidée du chef-d’œuvre restauré (t1156458), intérieur et extérieur avec guide (t778850), Sainte-Chapelle + Conciergerie + Notre-Dame (t525225), visite avec guide francophone (t1239537). Rendu vérifié dans le widget. FR + EN.
