@@ -8,7 +8,8 @@ from viator_picks import P as VP, G as VG, A as VA, PG as VPG, PA as VPA, RG as 
 PID = 'pid=P00331213&amp;mcid=42383&amp;medium=link&amp;campaign='
 # Lieux GYG trop larges remplacés (testé 14/11/2026) : 132103 = Auvergne-Rhône-Alpes → Lyon en tête
 # Activités GYG choisies (ordre gardé ; les 2 premières sur mobile)
-GYG_TOURS = {'cannes': '95337,243442,65370,641064'}
+GYG_TOURS = {'cote-d-azur/cannes': '95337,243442,65370,641064', 'french-riviera/cannes': '95337,243442,65370,641064',
+             'paris/arc-de-triomphe': '66157,344326'}
 LOC_OVERRIDE = {'132103': '201172'}
 PAGES = {
   # clé : (chemin FR, chemin EN)
@@ -66,7 +67,7 @@ def apply(root, lang):
         m = re.search(r'getyourguide\.(?:fr|com)/[^"?]*?-l(\d+)/', s)
         if not m: print('sans lieu GYG', p); continue
         cfg['gyg_loc'] = LOC_OVERRIDE.get(m.group(1), m.group(1))
-        if slug == 'cannes' and rel.split('/')[0] in ('cote-d-azur', 'french-riviera'): cfg['gyg_tours'] = GYG_TOURS['cannes']
+        if rel in GYG_TOURS: cfg['gyg_tours'] = GYG_TOURS[rel]
         if cfg.get('via_all'):
             camp = f"clicandsite-{lang}-{rel.replace('/', '-')}"
             cfg['via_all_url'] = f"https://www.viator.com/{T[lang]['pre']}{cfg['via_all']}?{PID}{camp}"
