@@ -172,3 +172,8 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 16 pages avec 1 ou 2 activités Viator (19 produits) : Bordeaux, Saint-Émilion, dune du Pilat, Sarlat, La Roque-Gageac, Beynac, Castelnaud, Lascaux, Rocamadour, Ajaccio, Piana, Calvi, Bonifacio, falaises de Bonifacio, Lavezzi, Porto-Vecchio.
 - Sans sélection (rien de propre au lieu ou pas d'avis) : Bergerac, Périgueux, Milandes, Marqueyssac, Padirac, Saint-Cirq-Lapopie, Bastia.
 - 50 produits candidats testés : statut 200, code produit, pid gardé.
+
+## 2026-11-14 — Sélection Viator : autres régions + Cannes
+- 27 pages de plus avec 1 ou 2 activités Viator (46 produits testés : 200, code produit, pid gardé) : Colmar, Strasbourg, Riquewihr, Kaysersberg, Dinan, Saint-Malo, Chambord, Chenonceau, Amboise, Villandry, Honfleur, Étretat, plages du Débarquement, Mont-Saint-Michel, Rouen, Biarritz, Saint-Jean-de-Luz, Bayonne, Aix, Avignon, Arles, Camargue, Baux, Gordes, Marseille, Calanques, Chamonix.
+- Sans sélection (rien de propre au lieu) : stations de ski (sauf Chamonix), Pyrénées, Carnac, Concarneau, Ploumanac'h, Quimper, Espelette, L'Isle-sur-la-Sorgue, pages « idées ».
+- Cannes (FR + EN), demande d'Anthony : le widget GYG ne prend plus le lieu (il sortait un tour de Menton) mais 4 activités choisies, dans l'ordre : bateau pour Saint-Tropez (t95337), visite guidée à pied de Cannes (t243442), ferry Sainte-Marguerite (t65370), atelier parfum Molinard (t641064). Sur mobile, les 2 premières. Réglage : GYG_TOURS dans activites.py.
