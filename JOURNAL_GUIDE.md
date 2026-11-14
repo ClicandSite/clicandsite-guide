@@ -213,3 +213,9 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 46 pages sans rien de propre au lieu : widget GYG retiré (stations de ski sauf Chamonix, Courchevel, Megève, Les 2 Alpes, Alpe d'Huez, Serre-Chevalier, La Plagne ; Pyrénées ; Kaysersberg ; Castelnaud, Milandes, Marqueyssac, La Roque-Gageac ; Ploumanac'h, Quimper ; Beaulieu, Biot, Cap d'Antibes, Carnaval de Nice, Noël Côte d'Azur, Grand Prix, Jardin exotique, Mougins, Roquebrune, villa Ephrussi ; Padirac ; Batignolles, Buttes-Chaumont, Champs-Élysées, Vincennes, Châtelet, Montparnasse, Noël à Paris, Saint-Michel ; Fondation Louis Vuitton).
 - Pages « idées » : widget par lieu gardé (pages générales).
 - Réglage : _outils/gyg_tours.py (clé = chemin FR ; l’anglais suit via hreflang).
+
+## 2026-11-14 — Pages « vraiment rien »
+- Recherche GYG par nom pour les 45 pages sans widget : 13 récupérées (Montgenèvre, Kaysersberg, château de Castelnaud, Cap d’Antibes, Carnaval de Nice, Grand Prix, Mougins, Noël Côte d’Azur, Champs-Élysées, Vincennes, Montparnasse, Noël à Paris, Saint-Michel).
+- 6 pages où seul Viator a quelque chose (La Roque-Gageac, Beaulieu, villa Ephrussi, Jardin exotique, Buttes-Chaumont, Châtelet-Les Halles) : tous les liens GYG pointent vers l’activité ou la page Viator du lieu.
+- 26 pages sans rien nulle part (stations de ski sans offre, Pyrénées, Milandes, Marqueyssac, Ploumanac’h, Quimper, Biot, Roquebrune, Padirac, Batignolles…) : encadré « À réserver », section « Activités à réserver », barre mobile, bouton d’en-tête et liens « Réserver… » retirés. Plus aucun lien partenaire sur ces pages. Picks Viator de Biot (Antibes) et Roquebrune (Menton) retirés.
+- Outil : _outils/sans_resa.py (FR + EN).
