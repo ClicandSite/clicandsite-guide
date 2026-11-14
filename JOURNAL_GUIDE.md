@@ -191,3 +191,6 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 ## 2026-11-14 — Sainte-Chapelle : widget GYG
 - Demande d’Anthony : Sainte-Chapelle + extérieur de Notre-Dame (t828673), Sainte-Chapelle + Conciergerie (t525225), plus visite en petit groupe (t233477). FR + EN.
 - Correctif : quand on fixe moins de 4 activités, GYG complétait avec n’importe quoi (une croisière). Le widget affiche maintenant exactement le nombre d’activités choisies (Arc de Triomphe : 2, Sainte-Chapelle : 3).
+
+## 2026-11-14 — Panthéon : widget GYG
+- Le 2e était une balade en mobylette. Remplacé (demande d’Anthony) : billet d’entrée (t70680), billet + audioguide (t1428204), visite privée Luxembourg + Panthéon (t497728). Rendu vérifié. FR + EN.
