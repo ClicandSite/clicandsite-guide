@@ -3,6 +3,8 @@ Usage : python3 _outils/activites.py ../clicandsite-guide ../clicandsite-guide-e
 Idempotent : le bloc est remplacé entre les marqueurs <!--acts:start--> et <!--acts:end-->.
 Chaque activité Viator doit avoir été vérifiée (ouverte, pid conservé, lieu inclus) avant d'être ajoutée ici."""
 import re, sys, os, html
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from viator_picks import P as VP, G as VG, A as VA  # sélection Viator vérifiée (Côte d'Azur, 14/11/2026)
 PID = 'pid=P00331213&amp;mcid=42383&amp;medium=link&amp;campaign='
 # Lieux GYG trop larges remplacés (testé 14/11/2026) : 132103 = Auvergne-Rhône-Alpes → Lyon en tête
 LOC_OVERRIDE = {'132103': '201172'}
@@ -51,6 +53,10 @@ def apply(root, lang):
         if 'class="book__lead"' not in s: continue
         rel = os.path.relpath(dp, root).replace(os.sep, '/')
         cfg = next((dict(c) for c in PAGES.values() if c[lang] == rel), {'via': []})
+        slug = rel.split('/')[-1]
+        if not cfg['via'] and rel.startswith(('cote-d-azur/', 'french-riviera/')) and slug in VG:
+            cfg['via'] = [VP[k] for k in VG[slug]]
+            if slug in VA: cfg['via_all'] = VA[slug]
         cfg[lang] = rel
         m = re.search(r'getyourguide\.(?:fr|com)/[^"?]*?-l(\d+)/', s)
         if not m: print('sans lieu GYG', p); continue
