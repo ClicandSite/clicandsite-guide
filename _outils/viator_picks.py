@@ -151,3 +151,31 @@ PA = {k: v for k, v in {
 for _fr, _en in {'catacombes':'catacombs','tour-eiffel':'eiffel-tower','quartier-latin':'latin-quarter','opera-garnier':'palais-garnier','croisiere-sur-la-seine':'seine-cruise'}.items():
     if _fr in PG: PG[_en] = PG[_fr]
     if _fr in PA: PA[_en] = PA[_fr]
+
+# --- Aquitaine, Lot, Corse ---
+P.update({
+'bxFoodWine':('tours/Bordeaux/Best-of-Bordeaux-Food-and-Wine-Tour/d468-425941P1','Balade gourmande et vins dans le vieux Bordeaux','à pied · dégustations','Bordeaux old town food and wine tour','on foot · tastings'),
+'bxFood':('tours/Bordeaux/Bordeaux-Food-Tour-Do-Eat-Better-Experience/d468-188552P5','Bordeaux Food Tour : un vrai repas français','à pied · repas complet','Bordeaux food tour: a full French meal','on foot · full meal'),
+'seHalf':('tours/Bordeaux/Small-Group-St-Emilion-Half-Day-Trip-from-Bordeaux/d468-2016EMILION','Saint-Émilion en demi-journée depuis Bordeaux','4 h · dégustation et visite de cave','Saint-Émilion half day from Bordeaux','4 h · tasting and cellar visit'),
+'seAfter':('tours/Bordeaux/Small-group-Saint-Emilion-Food-and-Wine-Tour-with-Tasting-from-Bordeaux/d468-37869P1','Saint-Émilion l’après-midi : 2 grands crus','petit groupe · départ de Bordeaux','Saint-Émilion afternoon: 2 grands crus','small group · from Bordeaux'),
+'pilat':('tours/Bordeaux/Arcachon-Half-Day-Trip-from-Bordeaux-Including-Pyla-Dune-and-Oyster-Tasting/d468-5617ARCACHON','Arcachon et la dune du Pilat depuis Bordeaux','journée · huîtres au déjeuner','Arcachon and the Dune du Pilat from Bordeaux','day trip · oyster lunch'),
+'sarMarket':('tours/Bergerac/Sarlat-Gourmet-Tour-and-Market-Visit/d24181-2016P67','Balade gourmande et marché de Sarlat','2 h · dégustations','Sarlat food tour and market','2 h · tastings'),
+'dorCanoe':('tours/Bergerac/La-vallee-des-5-chateaux/d24181-67850P3','La vallée de la Dordogne en canoë','au pied des châteaux','Dordogne valley by canoe','below the castles'),
+'dorVill':('tours/Bergerac/Half-day-Tour-of-The-Villages-of-the-Dordogne/d24181-2016P32','Les villages de la Dordogne en demi-journée','départ de Sarlat','Dordogne villages half-day tour','from Sarlat'),
+'lasIV':('tours/Bergerac/Half-Day-Tour-Lascaux-IV-from-Sarlat/d24181-2016P75','Lascaux IV en demi-journée','départ de Sarlat','Lascaux IV half-day tour','from Sarlat'),
+'lasDay':('tours/Bergerac/LASCAUX-II-and-The-Art-of-the-Caves/d24181-2016P31','Préhistoire et art des grottes','journée · départ de Sarlat','Prehistory and cave art day trip','full day · from Sarlat'),
+'rocHalf':('tours/Bergerac/Half-day-Tour-of-Rocamadour-from-Sarlat/d24181-2016P33','Rocamadour en demi-journée','petit groupe · départ de Sarlat','Rocamadour half-day tour','small group · from Sarlat'),
+'rocPriv':('tours/Bergerac/Private-morning-tour-to-Rocamadour-by-EXPLOREO/d24181-69161P16','Rocamadour en visite privée','matinée · départ de Sarlat','Private Rocamadour tour','morning · from Sarlat'),
+'pianaWalk':('tours/Corsica/the-inevitable-Visit-Calanche-De-Piana/d4799-176434P1','La visite incontournable des calanques de Piana','1 h 30','Must-do Calanques de Piana tour','1 h 30'),
+'pianaScan':('tours/Corsica/Half-Day-Boat-Trip-to-Scandola-Calanche-de-Piana/d4799-176434P2','Scandola et calanques de Piana en bateau','3 h · demi-journée','Scandola and Piana by boat','3 h · half day'),
+'ajaNapo':('tours/Ajaccio/The-life-of-NAPOLEON-BONAPARTE-Visual-and-Gustative-Cultural-Experience-duration-1h/d4192-152641P1','La grotte Napoléon avec repas corse','histoire et dégustation','Napoleon’s grotto with a Corsican meal','history and tasting'),
+'ajaPiana':('tours/Corsica/Sea-trip-to-the-Calanques-de-Piana-from-Ajaccio/d4799-305189P1','Calanques de Piana en bateau depuis Ajaccio','4 h · arrêt baignade','Calanques de Piana boat trip from Ajaccio','4 h · swim stop'),
+'calSnork':('tours/Corsica/Boat-Trip-and-Snorkeling-in-the-Gulf-of-Calvi/d4799-398640P2','Bateau et snorkeling dans le golfe de Calvi','baignade incluse','Boat trip and snorkelling in Calvi bay','swim included'),
+'bonLav':('tours/Corsica/Cruise-to-Bonifacio-and-Snorkeling-to-the-Lavezzi-Islands/d4799-5488592P1','Bonifacio et snorkeling aux îles Lavezzi','5 h · en bateau','Bonifacio and Lavezzi snorkelling cruise','5 h · by boat'),
+'pvLav':('tours/Corsica/Cruise-EN-Mer-DE-Porto-Vecchio-Bonifacio-Lavezzi-Islands/d4799-5583924P3','Croisière Porto-Vecchio, Bonifacio et Lavezzi','9 h · journée en mer','Porto-Vecchio, Bonifacio and Lavezzi cruise','9 h · day at sea'),
+})
+RG = {'bordeaux':['bxFoodWine','bxFood'],'saint-emilion':['seHalf','seAfter'],'dune-du-pilat':['pilat'],
+'sarlat-la-caneda':['sarMarket','dorCanoe'],'la-roque-gageac':['dorCanoe','dorVill'],'chateau-de-beynac':['dorVill','dorCanoe'],
+'chateau-de-castelnaud':['dorCanoe','dorVill'],'lascaux':['lasIV','lasDay'],'rocamadour':['rocHalf','rocPriv'],
+'piana':['pianaScan','pianaWalk'],'ajaccio':['ajaNapo','ajaPiana'],'calvi':['calSnork'],'bonifacio':['bonLav','pvLav'],
+'falaises-de-bonifacio':['bonLav','pvLav'],'iles-lavezzi':['bonLav','pvLav'],'porto-vecchio':['pvLav']}
