@@ -1,0 +1,5 @@
+# nom URL — photos sous licence libre à télécharger (Wikimedia Commons)
+mont-gros-cayambe.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nice_Est_observatoire_01.jpg/1920px-Nice_Est_observatoire_01.jpg
+mont-gros-ls2.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Observatoire_de_Nice_-_LS2.jpg/1920px-Observatoire_de_Nice_-_LS2.jpg
+mont-gros-ls3.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Observatoire_de_Nice_-_LS3.jpg/1920px-Observatoire_de_Nice_-_LS3.jpg
+mont-gros-claire.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Observatoire_de_Nice.jpg/1920px-Observatoire_de_Nice.jpg

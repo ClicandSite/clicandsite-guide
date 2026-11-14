@@ -1,0 +1,29 @@
+name: Photos (téléchargement)
+# Télécharge les photos listées dans _outils/photos.txt (« nom URL » par ligne) dans _photos_brutes/, si absentes.
+on:
+  push:
+    branches: [main]
+    paths: ['_outils/photos.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  dl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Télécharger
+        run: |
+          mkdir -p _photos_brutes
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            case "$name" in \#*) continue;; esac
+            [ -f "_photos_brutes/$name" ] && continue
+            curl -fsSL -A "ClicandSiteBot/1.0 (https://clicandsite.fr)" -o "_photos_brutes/$name" "$url" && echo "ok $name"
+          done < _outils/photos.txt
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _photos_brutes
+          git diff --cached --quiet || (git commit -m "Photos brutes téléchargées" && git push)
