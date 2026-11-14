@@ -231,3 +231,11 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - NOUVEL OUTIL photos : upload.wikimedia.org est bloqué depuis l’environnement de travail. Lister « nom URL » dans main:_outils/photos.txt et pousser : l’action GitHub « Photos (téléchargement) » télécharge dans _photos_brutes/ et commit. Récupérer avec git pull, traiter, puis supprimer _photos_brutes/ (le site a .nojekyll, le dossier serait public).
 - Générateur de la page : guide_gen/generateur/run_mont_gros.py (à partir du gabarit colline-du-chateau).
 - Correctif du 15/11 : la carte « transfert Elite Prestige » avait été retirée par erreur avec les blocs de réservation sur Auron, Isola 2000, Biot, Roquebrune (FR + EN) ; rétablie dans une section « Y aller avec un chauffeur privé » (id="chauffeur").
+
+## 2026-11-15 — 12 pages randonnées Côte d'Azur (FR+EN)
+- Pages : tete-de-chien, promenade-le-corbusier, lac-de-trecolpas, val-de-siagne, pic-de-courmettes, vieil-aspremont, sentier-nietzsche, cascade-de-vescagne, cime-de-la-forna, sentier-de-la-brague, sentier-du-cap-ferrat, plage-de-la-mala (mêmes slugs FR/EN).
+- Nouvelle section « Randonnées et sentiers du littoral » / « Hikes and coastal paths » (#g-rando) sur l'index Côte d'Azur ; mont-gros déplacé dedans. Compteur accueil : 68 guides.
+- Générateur : guide_gen/generateur/run_randos.py + randos_data.py (contenu) + run_randos_integration.py (index, sitemap, crédits, compteurs).
+- Photos Commons téléchargées via le workflow photos.yml (ajout pause + 4 tentatives, Commons renvoie 429). Lignes traitées marquées « # fait: » dans _outils/photos.txt.
+- Pas de bloc réservation GYG/Viator sur ces pages (rien de spécifique) ; carte chauffeur EPS uniquement.
+- À surveiller : Tête de Chien, tronçon balises 605-606 signalé fermé (Randoxygène) ; Cap Moderne fermé de novembre à mars.
