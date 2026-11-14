@@ -143,3 +143,9 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Fichiers : assets/activites.css (chargé uniquement sur les pages avec le bloc), _outils/activites.py (config PAGES, idempotent ; ajouter une page = une entrée avec activités Viator vérifiées).
 - Vérifié en ligne sur clicandsite.fr et .com : iframe GYG chargée (fr-FR / en-US), liens Viator avec pid.
 - À faire si Anthony valide : étendre aux autres pages de lieux (chercher la page attraction Viator « -aNNNN » de chaque lieu, meilleure que la page ville).
+
+## 2026-11-14 — Liens GetYourGuide de recherche (signalé par Anthony sur Padirac)
+- Problème : 230 liens GYG de type `getyourguide.fr/s/?q=…` (39 requêtes, 46 pages Corse / Aquitaine-Dordogne / Lot) → résultats d'autres pays (ex. Padirac).
+- Correction : remplacés par la page lieu GYG `slug-lNNNN/?partner_id=XMYSXGR…` (cmp conservé). Lieux : Bonifacio l91244, Porto-Vecchio l91235, Ajaccio l1535, Ajaccio County l213076 (Piana, Scandola), Bastia l1536, Haute-Corse l150371 (Calvi), Bordeaux l287 (dont Saint-Émilion), Dune du Pilat l3438, Arcachon l32338, Sarlat l1356, Dordogne l39314 (Lascaux, Beynac, Castelnaud, Milandes, Marqueyssac, Bergerac, Périgueux), La Roque-Gageac l139356, Rocamadour l190520 (Padirac, Saint-Cirq-Lapopie, Cahors). L'excursion GYG « Padirac + Rocamadour depuis Sarlat » (t382850) semble retirée → non utilisée.
+- Outil : _outils/gyg_fix.py (idempotent), à lancer après build comme viator_fix.py.
+- Non testé en navigateur (Mac hors ligne) : IDs relevés sur les pages GYG elles-mêmes. À contrôler au prochain passage dans le navigateur.
