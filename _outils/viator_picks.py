@@ -236,3 +236,6 @@ RG.update({'colmar':['colFood','colWalk'],'strasbourg':['sxbFood','sxbWalk'],'ri
 'biarritz':['biaWalk','biaSeg'],'saint-jean-de-luz':['sjlSea'],'bayonne':['bayFood','bayWalk'],'aix-en-provence':['aixFood','aixWalk'],
 'avignon':['avPapes','avFood'],'arles':['arlWalk','arlCam'],'camargue':['camarg','arlCam'],'baux-de-provence':['bauxAv','bauxAix'],
 'gordes':['gordDay','gordHalf'],'marseille':['mrsFood','mrsWalk'],'calanques':['calBoat','calKayak'],'chamonix':['chxPara','chxBike']})
+
+# 14/11 : Biot et Roquebrune n'ont pas d'activité propre (les picks étaient Antibes / Menton)
+G.pop('biot', None); G.pop('roquebrune-cap-martin', None)
