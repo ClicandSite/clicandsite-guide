@@ -197,3 +197,6 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 
 ## 2026-11-14 — Invalides : widget GYG
 - Le 2e était une croisière avec gaufre. Remplacé (demande d’Anthony) : tombeau de Napoléon + musée de l’Armée (t70627), visite guidée « de l’hôpital royal à la tombe de Napoléon » (t1148557), Aura Invalides (t463678), visite privée (t1501481). Sur mobile : les 2 premiers. FR + EN.
+
+## 2026-11-14 — Conciergerie : widget GYG
+- Aucun des 2 n’allait. Remplacé (demande d’Anthony) : billet Conciergerie avec HistoPad (t222147), Sainte-Chapelle + Conciergerie (t525225). Rendu vérifié. FR + EN.
