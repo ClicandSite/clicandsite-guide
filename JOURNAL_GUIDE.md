@@ -124,3 +124,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 14/11/2026 : page musee-picasso-antibes (g-antibes, 53 guides), photo Commons MOSSOT CC BY-SA 4.0.
 - 14/11/2026 : page musee-matisse (g-nice, 54 guides), photo Commons Chris Bontemps CC BY-SA 2.0 (original 1280px).
 - 14/11/2026 : page fort-carre (g-antibes, 55 guides), photo Commons Sukkoria CC BY-SA 4.0 (lien Category). Reste : Palais des Festivals, musée Explorations du Monde, marché provençal Antibes.
+- 14/11/2026 : photos optimisées — WebP (q76) pour 640/960/1280/1920 + nouvelle taille 1280 jpg, pages en <picture>. APRES CHAQUE NOUVELLE PAGE : lancer python3 /tmp/webp.py (idempotent ; script copié dans _outils/webp.py).
