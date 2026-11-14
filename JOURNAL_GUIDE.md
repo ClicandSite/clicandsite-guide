@@ -121,3 +121,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 14/11/2026 : page musee-chagall (g-nice, 50 guides), photo Commons Derbrauni CC BY-SA 4.0 (lien Category).
 - 14/11/2026 : page cours-saleya (g-nice, 51 guides), photo Commons dalbera CC BY 2.0.
 - 14/11/2026 : page musee-oceanographique (g-monaco, 52 guides), photo Commons Uhooep CC BY-SA 4.0.
+- 14/11/2026 : page musee-picasso-antibes (g-antibes, 53 guides), photo Commons MOSSOT CC BY-SA 4.0.
