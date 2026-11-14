@@ -200,3 +200,6 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 
 ## 2026-11-14 — Conciergerie : widget GYG
 - Aucun des 2 n’allait. Remplacé (demande d’Anthony) : billet Conciergerie avec HistoPad (t222147), Sainte-Chapelle + Conciergerie (t525225). Rendu vérifié. FR + EN.
+
+## 2026-11-14 — Fondation Louis Vuitton
+- GYG n’a aucune activité propre à la Fondation (sa page l4985 montre Disneyland, croisières…). Les 5 liens GYG de la page (FR + EN) pointent maintenant vers l’entrée Viator de la Fondation (d479-466185P14, testée), et le widget GYG est retiré du bloc (GYG_TOURS = « - »). Reste la sélection Viator.
