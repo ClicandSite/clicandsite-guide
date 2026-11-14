@@ -162,3 +162,8 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Sans sélection (volontaire) : 3-jours, carnaval-de-nice, noel-cote-d-azur, porquerolles (Viator n'a rien sur Porquerolles depuis Toulon).
 - Musées Matisse / Chagall : liens GYG + widget passés de Nice (l314, qui affichait un bateau pour Saint-Tropez) aux lieux dédiés matisse-museum-of-nice-l4133 et marc-chagall-national-museum-l4138 (testé : activités du musée en tête).
 - Commits : FR 4f6fd9e + suivant, EN 7569c82 + suivant. Suite prévue : Paris.
+
+## 2026-11-14 — Sélection Viator : Paris
+- Bloc « À réserver sur place » de Paris (FR + EN) : 2 activités Viator choisies pour 35 pages (60 produits, bien notés et en rapport direct avec le lieu), plus le lien « Toutes les activités » vers la page attraction Viator de 47 pages.
+- Sans sélection, faute de produit propre au lieu : bastille, batignolles, bercy, buttes-chaumont, chantilly, château de Vincennes, châtelet, île Saint-Louis, la Défense, la Villette, Montparnasse, Saint-Germain, Saint-Michel, Auvers, Pierrefonds, 3 jours, Noël.
+- Chaque produit vérifié : statut 200, code produit présent, pid gardé. Outil : _outils/viator_picks.py (PG/PA), activites.py.
