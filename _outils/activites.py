@@ -4,6 +4,8 @@ Idempotent : le bloc est remplacé entre les marqueurs <!--acts:start--> et <!--
 Chaque activité Viator doit avoir été vérifiée (ouverte, pid conservé, lieu inclus) avant d'être ajoutée ici."""
 import re, sys, os, html
 PID = 'pid=P00331213&amp;mcid=42383&amp;medium=link&amp;campaign='
+# Lieux GYG trop larges remplacés (testé 14/11/2026) : 132103 = Auvergne-Rhône-Alpes → Lyon en tête
+LOC_OVERRIDE = {'132103': '201172'}
 PAGES = {
   # clé : (chemin FR, chemin EN)
   'le-suquet': {
@@ -52,7 +54,7 @@ def apply(root, lang):
         cfg[lang] = rel
         m = re.search(r'getyourguide\.(?:fr|com)/[^"?]*?-l(\d+)/', s)
         if not m: print('sans lieu GYG', p); continue
-        cfg['gyg_loc'] = m.group(1)
+        cfg['gyg_loc'] = LOC_OVERRIDE.get(m.group(1), m.group(1))
         if cfg.get('via_all'):
             camp = f"clicandsite-{lang}-{rel.replace('/', '-')}"
             cfg['via_all_url'] = f"https://www.viator.com/{T[lang]['pre']}{cfg['via_all']}?{PID}{camp}"
