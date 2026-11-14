@@ -155,3 +155,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 131 numéros de lieu testés un par un dans le widget (14/11) : tous affichent des activités du bon secteur. Exception corrigée : 132103 (région Auvergne-Rhône-Alpes → Lyon en tête) remplacé par 201172 (Savoie) pour les stations de Tarentaise + idées ski (LOC_OVERRIDE dans le script).
 - Lien « Toutes les activités sur Viator » = 1er lien Viator de la page (déjà corrigé par viator_fix.py). Sélection Viator vérifiée à la main : seulement Le Suquet pour l'instant (config PAGES).
 - Commits : FR b2e40f0 + ceaf1bb, EN d1c7978 + bcaba74.
+
+## 2026-11-14 — Sélection Viator Côte d'Azur (52 pages FR + 52 EN)
+- 41 activités Viator retenues (2 par page), tirées des pages Viator du lieu (« -attractions/…-aNNNN ») ou de la ville, choix = sur place + beaucoup d'avis. Toutes vérifiées dans le navigateur le 14/11 : page OK, bonne activité, pid conservé.
+- Fichier : _outils/viator_picks.py (P = activités FR/EN, G = page → 2 activités, A = page → page lieu Viator pour « Toutes les activités »). Alias EN : esterel-massif, lemon-festival-menton, lerins-islands, verdon-gorge.
+- Sans sélection (volontaire) : 3-jours, carnaval-de-nice, noel-cote-d-azur, porquerolles (Viator n'a rien sur Porquerolles depuis Toulon).
+- Musées Matisse / Chagall : liens GYG + widget passés de Nice (l314, qui affichait un bateau pour Saint-Tropez) aux lieux dédiés matisse-museum-of-nice-l4133 et marc-chagall-national-museum-l4138 (testé : activités du musée en tête).
+- Commits : FR 4f6fd9e + suivant, EN 7569c82 + suivant. Suite prévue : Paris.
