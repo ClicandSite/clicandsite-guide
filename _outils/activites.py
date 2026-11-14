@@ -72,8 +72,8 @@ def apply(root, lang):
         if not cfg.get('via_all') and slug in a: cfg['via_all'] = a[slug]
         cfg[lang] = rel
         m = re.search(r'getyourguide\.(?:fr|com)/[^"?]*?-l(\d+)/', s)
-        if not m: print('sans lieu GYG', p); continue
-        cfg['gyg_loc'] = LOC_OVERRIDE.get(m.group(1), m.group(1))
+        if not m and GYG_TOURS.get(rel) != '-': print('sans lieu GYG', p); continue
+        cfg['gyg_loc'] = LOC_OVERRIDE.get(m.group(1), m.group(1)) if m else ''
         if rel in GYG_TOURS: cfg['gyg_tours'] = GYG_TOURS[rel]
         if cfg.get('via_all'):
             camp = f"clicandsite-{lang}-{rel.replace('/', '-')}"
