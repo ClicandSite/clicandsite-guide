@@ -135,3 +135,11 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Destinations utilisées : Paris d479, Nice d478, Cannes d786, Antibes d21941, Grasse d50323, Menton d23076, Villefranche d50322, Fréjus d5223, Monaco d948, St-Tropez d4195, Toulon d24308, French-Riviera d179, Provence d184, Avignon d483, Arles d28884, Gordes d50932, Marseille d485, Corsica d4799, Ajaccio d4192, Bergerac d24181 (Dordogne/Lot), Bordeaux d468, Midi-Pyrenees d5512, Lourdes d24041, Perpignan d26343, Colmar d22940, Brittany d21942, Rennes d21943, Loire-Valley d178, Le-Havre d4199, Bayonne d5047, Biarritz d23856, Chamonix d24269, Annecy d5437, Rhone-Alpes d24268, Grenoble d27067, France d51.
 - Outil : clicandsite-guide/_outils/viator_fix.py (idempotent) → à lancer après chaque build : `python3 _outils/viator_fix.py write ../clicandsite-guide ../clicandsite-guide-en`. Toute nouvelle requête non listée sort en « unknown » : la tester avant de l'ajouter.
 - Commits : FR d5a7799, EN 76cb82a.
+
+## 2026-11-14 — Bloc « À réserver sur place » (test : Le Suquet)
+- FR cote-d-azur/le-suquet + EN french-riviera/le-suquet : bloc #sur-place inséré après .book__lead (marqueurs <!--acts:start-->/<!--acts:end-->).
+  - Widget officiel GetYourGuide (data-gyg-widget="activities", partner XMYSXGR, cmp=clicandsite-{lang}-{chemin}), script pa.umd.production.min.js chargé seulement à l'approche du bloc (IntersectionObserver, rootMargin 600px) → pas d'impact sur le chargement initial. 2 activités si largeur < 700 px, 4 sinon.
+  - Sélection Viator vérifiée dans le navigateur (pid conservé, lieu inclus) : d786-183050P4 (scénariste, 4,7/68 avis, 2 h 40) et d786-14737P19 (Au-delà du tapis rouge, 3 h, colline du Suquet). Lien « Toutes les activités » → page attraction Viator Le Suquet d786-a1817 (pid conservé).
+- Fichiers : assets/activites.css (chargé uniquement sur les pages avec le bloc), _outils/activites.py (config PAGES, idempotent ; ajouter une page = une entrée avec activités Viator vérifiées).
+- Vérifié en ligne sur clicandsite.fr et .com : iframe GYG chargée (fr-FR / en-US), liens Viator avec pid.
+- À faire si Anthony valide : étendre aux autres pages de lieux (chercher la page attraction Viator « -aNNNN » de chaque lieu, meilleure que la page ville).
