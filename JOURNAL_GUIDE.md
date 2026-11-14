@@ -167,3 +167,8 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Bloc « À réserver sur place » de Paris (FR + EN) : 2 activités Viator choisies pour 35 pages (60 produits, bien notés et en rapport direct avec le lieu), plus le lien « Toutes les activités » vers la page attraction Viator de 47 pages.
 - Sans sélection, faute de produit propre au lieu : bastille, batignolles, bercy, buttes-chaumont, chantilly, château de Vincennes, châtelet, île Saint-Louis, la Défense, la Villette, Montparnasse, Saint-Germain, Saint-Michel, Auvers, Pierrefonds, 3 jours, Noël.
 - Chaque produit vérifié : statut 200, code produit présent, pid gardé. Outil : _outils/viator_picks.py (PG/PA), activites.py.
+
+## 2026-11-14 — Sélection Viator : Aquitaine, Lot, Corse
+- 16 pages avec 1 ou 2 activités Viator (19 produits) : Bordeaux, Saint-Émilion, dune du Pilat, Sarlat, La Roque-Gageac, Beynac, Castelnaud, Lascaux, Rocamadour, Ajaccio, Piana, Calvi, Bonifacio, falaises de Bonifacio, Lavezzi, Porto-Vecchio.
+- Sans sélection (rien de propre au lieu ou pas d'avis) : Bergerac, Périgueux, Milandes, Marqueyssac, Padirac, Saint-Cirq-Lapopie, Bastia.
+- 50 produits candidats testés : statut 200, code produit, pid gardé.
