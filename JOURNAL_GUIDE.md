@@ -149,3 +149,9 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Correction : remplacés par la page lieu GYG `slug-lNNNN/?partner_id=XMYSXGR…` (cmp conservé). Lieux : Bonifacio l91244, Porto-Vecchio l91235, Ajaccio l1535, Ajaccio County l213076 (Piana, Scandola), Bastia l1536, Haute-Corse l150371 (Calvi), Bordeaux l287 (dont Saint-Émilion), Dune du Pilat l3438, Arcachon l32338, Sarlat l1356, Dordogne l39314 (Lascaux, Beynac, Castelnaud, Milandes, Marqueyssac, Bergerac, Périgueux), La Roque-Gageac l139356, Rocamadour l190520 (Padirac, Saint-Cirq-Lapopie, Cahors). L'excursion GYG « Padirac + Rocamadour depuis Sarlat » (t382850) semble retirée → non utilisée.
 - Outil : _outils/gyg_fix.py (idempotent), à lancer après build comme viator_fix.py.
 - Non testé en navigateur (Mac hors ligne) : IDs relevés sur les pages GYG elles-mêmes. À contrôler au prochain passage dans le navigateur.
+
+## 2026-11-14 — Bloc « À réserver sur place » généralisé (191 pages FR + 191 EN)
+- _outils/activites.py traite désormais toutes les pages ayant .book__lead (idempotent). Widget GYG par **numéro de lieu** (`data-gyg-location-id`, transmis en `location_id` à l'iframe) pris dans le 1er lien GYG `-lNNNN/` de la page. NE PAS utiliser `data-gyg-q` : testé, « Padirac » affichait Costa Rica / Hongrie / Mexique.
+- 131 numéros de lieu testés un par un dans le widget (14/11) : tous affichent des activités du bon secteur. Exception corrigée : 132103 (région Auvergne-Rhône-Alpes → Lyon en tête) remplacé par 201172 (Savoie) pour les stations de Tarentaise + idées ski (LOC_OVERRIDE dans le script).
+- Lien « Toutes les activités sur Viator » = 1er lien Viator de la page (déjà corrigé par viator_fix.py). Sélection Viator vérifiée à la main : seulement Le Suquet pour l'instant (config PAGES).
+- Commits : FR b2e40f0 + ceaf1bb, EN d1c7978 + bcaba74.
