@@ -19,7 +19,11 @@ jobs:
             [ -z "$name" ] && continue
             case "$name" in \#*) continue;; esac
             [ -f "_photos_brutes/$name" ] && continue
-            curl -fsSL -A "ClicandSiteBot/1.0 (https://clicandsite.fr)" -o "_photos_brutes/$name" "$url" && echo "ok $name"
+            for t in 1 2 3 4; do
+              if curl -fsSL -A "ClicandSiteBot/1.0 (https://clicandsite.fr; contact via site)" -o "_photos_brutes/$name" "$url"; then echo "ok $name"; break; fi
+              rm -f "_photos_brutes/$name"; sleep $((t*15))
+            done
+            sleep 4
           done < _outils/photos.txt
       - name: Commit
         run: |
