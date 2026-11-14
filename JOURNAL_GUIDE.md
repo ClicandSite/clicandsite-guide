@@ -206,3 +206,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 
 ## 2026-11-14 — Musée Picasso : widget GYG
 - Demande d’Anthony : billet musée Picasso + croisière en option (t432084), visite privée « L’artiste amoureux » (t1272547). Rendu vérifié. FR + EN.
+
+## 2026-11-14 — GYG : activités choisies sur tout le site
+- Relevé des activités GYG de chaque lieu (pages lieu GetYourGuide), tri par mot-clé du lieu puis relecture à la main : excursions « depuis X » vers ailleurs, transferts, bar crawl, cours en néerlandais… écartés.
+- 141 pages (FR + EN) ont maintenant des activités fixées (data-gyg-tour-ids) ; les 316 numéros ont été contrôlés dans le widget (3 introuvables retirés).
+- 46 pages sans rien de propre au lieu : widget GYG retiré (stations de ski sauf Chamonix, Courchevel, Megève, Les 2 Alpes, Alpe d'Huez, Serre-Chevalier, La Plagne ; Pyrénées ; Kaysersberg ; Castelnaud, Milandes, Marqueyssac, La Roque-Gageac ; Ploumanac'h, Quimper ; Beaulieu, Biot, Cap d'Antibes, Carnaval de Nice, Noël Côte d'Azur, Grand Prix, Jardin exotique, Mougins, Roquebrune, villa Ephrussi ; Padirac ; Batignolles, Buttes-Chaumont, Champs-Élysées, Vincennes, Châtelet, Montparnasse, Noël à Paris, Saint-Michel ; Fondation Louis Vuitton).
+- Pages « idées » : widget par lieu gardé (pages générales).
+- Réglage : _outils/gyg_tours.py (clé = chemin FR ; l’anglais suit via hreflang).
