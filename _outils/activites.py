@@ -11,7 +11,8 @@ PID = 'pid=P00331213&amp;mcid=42383&amp;medium=link&amp;campaign='
 GYG_TOURS = {'cote-d-azur/cannes': '95337,243442,65370,641064', 'french-riviera/cannes': '95337,243442,65370,641064',
              'paris/arc-de-triomphe': '66157,344326',
              'paris/tour-eiffel': '62484,403497,983435,403969', 'paris/eiffel-tower': '62484,403497,983435,403969',
-             'paris/notre-dame': '1156458,778850,525225,1239537'}
+             'paris/notre-dame': '1156458,778850,525225,1239537',
+             'paris/sainte-chapelle': '828673,525225,233477'}
 LOC_OVERRIDE = {'132103': '201172'}
 PAGES = {
   # clé : (chemin FR, chemin EN)
@@ -44,7 +45,7 @@ def block(cfg, lang):
                  f'<span class="pick__t">{html.escape(tt)}</span><span class="pick__d">{html.escape(dd)}</span>{ARR}</a></li>')
     return (f'<!--acts:start--><div class="live" id="sur-place"><h3 class="live__t">{t["h"]}</h3>'
             f'<div class="live__gyg"><p class="live__s">{t["sub"]} · GetYourGuide</p>'
-            f'<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-locale-code="{t["loc"]}" data-gyg-widget="activities" data-gyg-number-of-items="4" data-gyg-cmp="{camp}" data-gyg-partner-id="XMYSXGR" '+(f'data-gyg-tour-ids="{cfg["gyg_tours"]}"' if cfg.get("gyg_tours") else f'data-gyg-location-id="{cfg["gyg_loc"]}"')+'></div></div>'
+            f'<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-locale-code="{t["loc"]}" data-gyg-widget="activities" data-gyg-number-of-items="{min(4, len(cfg["gyg_tours"].split(","))) if cfg.get("gyg_tours") else 4}" data-gyg-cmp="{camp}" data-gyg-partner-id="XMYSXGR" '+(f'data-gyg-tour-ids="{cfg["gyg_tours"]}"' if cfg.get("gyg_tours") else f'data-gyg-location-id="{cfg["gyg_loc"]}"')+'></div></div>'
             + (f'<p class="live__s live__s--via">{t["sel"]}</p><ul class="picks">{rows}</ul>' if rows else '') +
             f'<p class="live__all"><a href="{cfg["via_all_url"]}" rel="sponsored nofollow noopener" target="_blank">{t["all"]}{ARR}</a></p>'
             '<script>(function(){var d=document.querySelector(".live__gyg");if(!d)return;function l(){if(window.__gyg)return;window.__gyg=1;var w=d.querySelector("[data-gyg-widget]"),ti=w.getAttribute("data-gyg-tour-ids");if(innerWidth<700){w.setAttribute("data-gyg-number-of-items","2");if(ti)w.setAttribute("data-gyg-tour-ids",ti.split(",").slice(0,2).join(","))}var s=document.createElement("script");s.async=1;s.src="https://widget.getyourguide.com/dist/pa.umd.production.min.js";s.setAttribute("data-gyg-partner-id","XMYSXGR");document.body.appendChild(s)}'
