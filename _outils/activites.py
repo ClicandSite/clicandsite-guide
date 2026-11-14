@@ -4,6 +4,7 @@ Idempotent : le bloc est remplacé entre les marqueurs <!--acts:start--> et <!--
 Chaque activité Viator doit avoir été vérifiée (ouverte, pid conservé, lieu inclus) avant d'être ajoutée ici."""
 import re, sys, os, html
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from gyg_tours import GT
 from viator_picks import P as VP, G as VG, A as VA, PG as VPG, PA as VPA, RG as VRG  # sélection Viator vérifiée (Côte d'Azur, 14/11/2026)
 PID = 'pid=P00331213&amp;mcid=42383&amp;medium=link&amp;campaign='
 # Lieux GYG trop larges remplacés (testé 14/11/2026) : 132103 = Auvergne-Rhône-Alpes → Lyon en tête
@@ -73,9 +74,14 @@ def apply(root, lang):
         if not cfg.get('via_all') and slug in a: cfg['via_all'] = a[slug]
         cfg[lang] = rel
         m = re.search(r'getyourguide\.(?:fr|com)/[^"?]*?-l(\d+)/', s)
-        if not m and GYG_TOURS.get(rel) != '-': print('sans lieu GYG', p); continue
+        if not m and GYG_TOURS.get(rel) != '-' and GT.get(rel) != '-': print('sans lieu GYG', p); continue
         cfg['gyg_loc'] = LOC_OVERRIDE.get(m.group(1), m.group(1)) if m else ''
-        if rel in GYG_TOURS: cfg['gyg_tours'] = GYG_TOURS[rel]
+        fr = rel
+        if lang == 'en':
+            h = re.search(r'hreflang="fr" href="https://clicandsite\.fr/([^"]*?)/?"', s)
+            if h: fr = h.group(1)
+        gt = GYG_TOURS.get(rel) or GYG_TOURS.get(fr) or GT.get(fr)
+        if gt: cfg['gyg_tours'] = gt
         if cfg.get('via_all'):
             camp = f"clicandsite-{lang}-{rel.replace('/', '-')}"
             cfg['via_all_url'] = f"https://www.viator.com/{T[lang]['pre']}{cfg['via_all']}?{PID}{camp}"
