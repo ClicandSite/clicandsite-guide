@@ -219,3 +219,6 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 6 pages où seul Viator a quelque chose (La Roque-Gageac, Beaulieu, villa Ephrussi, Jardin exotique, Buttes-Chaumont, Châtelet-Les Halles) : tous les liens GYG pointent vers l’activité ou la page Viator du lieu.
 - 26 pages sans rien nulle part (stations de ski sans offre, Pyrénées, Milandes, Marqueyssac, Ploumanac’h, Quimper, Biot, Roquebrune, Padirac, Batignolles…) : encadré « À réserver », section « Activités à réserver », barre mobile, bouton d’en-tête et liens « Réserver… » retirés. Plus aucun lien partenaire sur ces pages. Picks Viator de Biot (Antibes) et Roquebrune (Menton) retirés.
 - Outil : _outils/sans_resa.py (FR + EN).
+
+## 2026-11-14 — Widget mobile : remplissage Notre-Dame
+- Signalé par Anthony (La Villette) : sur mobile, le script forçait 2 cartes ; avec 1 seule activité choisie, GYG complétait avec une visite de Notre-Dame. Le nombre de cartes suit maintenant le nombre d’activités choisies (max 2 sur mobile). Toutes les pages FR + EN régénérées.
