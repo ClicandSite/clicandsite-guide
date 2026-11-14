@@ -16,7 +16,8 @@ GYG_TOURS = {'cote-d-azur/cannes': '95337,243442,65370,641064', 'french-riviera/
              'paris/pantheon': '70680,1428204,497728',
              'paris/invalides': '70627,1148557,463678,1501481',
              'paris/conciergerie': '222147,525225',
-             'paris/fondation-louis-vuitton': '-'}  # '-' = pas de widget GYG (rien sur le lieu)
+             'paris/fondation-louis-vuitton': '-',
+             'paris/musee-picasso': '432084,1272547'}  # '-' = pas de widget GYG (rien sur le lieu)
 LOC_OVERRIDE = {'132103': '201172'}
 PAGES = {
   # clé : (chemin FR, chemin EN)
