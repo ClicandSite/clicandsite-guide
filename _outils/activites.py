@@ -10,7 +10,8 @@ PID = 'pid=P00331213&amp;mcid=42383&amp;medium=link&amp;campaign='
 # Activités GYG choisies (ordre gardé ; les 2 premières sur mobile)
 GYG_TOURS = {'cote-d-azur/cannes': '95337,243442,65370,641064', 'french-riviera/cannes': '95337,243442,65370,641064',
              'paris/arc-de-triomphe': '66157,344326',
-             'paris/tour-eiffel': '62484,403497,983435,403969', 'paris/eiffel-tower': '62484,403497,983435,403969'}
+             'paris/tour-eiffel': '62484,403497,983435,403969', 'paris/eiffel-tower': '62484,403497,983435,403969',
+             'paris/notre-dame': '1156458,778850,525225,1239537'}
 LOC_OVERRIDE = {'132103': '201172'}
 PAGES = {
   # clé : (chemin FR, chemin EN)
