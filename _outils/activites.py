@@ -38,7 +38,7 @@ def block(cfg, lang):
             f'<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-locale-code="{t["loc"]}" data-gyg-widget="activities" data-gyg-number-of-items="4" data-gyg-cmp="{camp}" data-gyg-partner-id="XMYSXGR" data-gyg-q="{cfg["gyg_q"]}"></div></div>'
             f'<p class="live__s live__s--via">{t["sel"]}</p><ul class="picks">{rows}</ul>'
             f'<p class="live__all"><a href="https://www.viator.com/{t["pre"]}{cfg["via_all"]}?{PID}{camp}" rel="sponsored nofollow noopener" target="_blank">{t["all"]}{ARR}</a></p>'
-            '<script>(function(){var d=document.querySelector(".live__gyg");if(!d)return;function l(){if(window.__gyg)return;window.__gyg=1;var s=document.createElement("script");s.async=1;s.src="https://widget.getyourguide.com/dist/pa.umd.production.min.js";s.setAttribute("data-gyg-partner-id","XMYSXGR");document.body.appendChild(s)}'
+            '<script>(function(){var d=document.querySelector(".live__gyg");if(!d)return;function l(){if(window.__gyg)return;window.__gyg=1;if(innerWidth<700)d.querySelector("[data-gyg-widget]").setAttribute("data-gyg-number-of-items","2");var s=document.createElement("script");s.async=1;s.src="https://widget.getyourguide.com/dist/pa.umd.production.min.js";s.setAttribute("data-gyg-partner-id","XMYSXGR");document.body.appendChild(s)}'
             'if("IntersectionObserver"in window){var o=new IntersectionObserver(function(e){if(e[0].isIntersecting){l();o.disconnect()}},{rootMargin:"600px"});o.observe(d)}else l()})();</script>'
             '</div><!--acts:end-->')
 def apply(root, lang):
