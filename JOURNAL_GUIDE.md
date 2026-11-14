@@ -123,3 +123,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 14/11/2026 : page musee-oceanographique (g-monaco, 52 guides), photo Commons Uhooep CC BY-SA 4.0.
 - 14/11/2026 : page musee-picasso-antibes (g-antibes, 53 guides), photo Commons MOSSOT CC BY-SA 4.0.
 - 14/11/2026 : page musee-matisse (g-nice, 54 guides), photo Commons Chris Bontemps CC BY-SA 2.0 (original 1280px).
+- 14/11/2026 : page fort-carre (g-antibes, 55 guides), photo Commons Sukkoria CC BY-SA 4.0 (lien Category). Reste : Palais des Festivals, musée Explorations du Monde, marché provençal Antibes.
