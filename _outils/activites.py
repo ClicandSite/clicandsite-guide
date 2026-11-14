@@ -74,12 +74,12 @@ def apply(root, lang):
         if not cfg.get('via_all') and slug in a: cfg['via_all'] = a[slug]
         cfg[lang] = rel
         m = re.search(r'getyourguide\.(?:fr|com)/[^"?]*?-l(\d+)/', s)
-        if not m and GYG_TOURS.get(rel) != '-' and GT.get(rel) != '-': print('sans lieu GYG', p); continue
-        cfg['gyg_loc'] = LOC_OVERRIDE.get(m.group(1), m.group(1)) if m else ''
         fr = rel
         if lang == 'en':
             h = re.search(r'hreflang="fr" href="https://clicandsite\.fr/([^"]*?)/?"', s)
             if h: fr = h.group(1)
+        if not m and GYG_TOURS.get(rel) != '-' and GT.get(fr) != '-': print('sans lieu GYG', p); continue
+        cfg['gyg_loc'] = LOC_OVERRIDE.get(m.group(1), m.group(1)) if m else ''
         gt = GYG_TOURS.get(rel) or GYG_TOURS.get(fr) or GT.get(fr)
         if gt: cfg['gyg_tours'] = gt
         if cfg.get('via_all'):
