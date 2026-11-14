@@ -45,13 +45,27 @@ td.n,th.n{text-align:right}
 #login input{width:100%;padding:10px;border:1px solid var(--ligne);border-radius:8px;margin:12px 0}
 #erreur{color:var(--ko);min-height:1.2em}
 .point{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px}
+details.carte{padding:0;margin-bottom:12px}
+details.carte>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;user-select:none}
+details.carte>summary::-webkit-details-marker{display:none}
+details.carte>summary h2{margin:0}
+details.carte>summary::after{content:"";width:9px;height:9px;border-right:2px solid var(--doux);border-bottom:2px solid var(--doux);transform:rotate(45deg);transition:transform .2s;flex:0 0 auto;margin-top:-4px}
+details.carte[open]>summary::after{transform:rotate(-135deg);margin-top:4px}
+details.carte>.corps{padding:0 14px 14px}
+details.carte .defile{max-height:320px;overflow:auto}
+.deux{align-items:start}
+.deux details.carte{margin-bottom:0}
 @media (max-width:640px){
   body{font-size:16px}
   .wrap{padding:12px}
   .v{font-size:1.6rem}
-  .kpis{grid-template-columns:1fr 1fr}
+  .kpis{grid-template-columns:1fr 1fr;gap:8px}
+  .kpis .carte{padding:10px 12px}
+  .kpis .v{font-size:1.4rem}
+  .kpis .k,.kpis .d{font-size:.75rem;line-height:1.3}
   .deux{grid-template-columns:1fr}
   .defile{overflow:visible}
+  details.carte .defile{max-height:360px;overflow:auto}
   table.cartes thead{display:none}
   table.cartes,table.cartes tbody,table.cartes tr,table.cartes td{display:block;width:100%}
   table.cartes tbody tr{border:1px solid var(--ligne);border-radius:10px;padding:6px 10px;margin:0 0 8px;background:#fcfbf8}
@@ -92,29 +106,24 @@ input,button{font-size:16px}
       <div class="carte"><div class="k">30 jours</div><div class="v" id="k_v30">—</div><div class="d"><b id="k_c30">—</b> clics partenaires</div></div>
     </div>
 
-    <div class="carte">
-      <h2>Visites et clics par jour, 30 derniers jours</h2>
-      <div id="graph"></div>
-      <div class="leg"><span><i style="background:var(--bleu)"></i>Visites</span><span><i style="background:var(--or)"></i>Clics partenaires</span></div>
+    <details class="carte" id="p_graph" open><summary><h2>Visites et clics par jour, 30 jours</h2></summary><div class="corps"><div id="graph"></div><div class="leg"><span><i style="background:var(--bleu)"></i>Visites</span><span><i style="background:var(--or)"></i>Clics partenaires</span></div></div></details>
+
+    <div class="deux">
+      <details class="carte" id="p_pages"><summary><h2>Pages les plus vues, 7 jours</h2></summary><div class="corps"><div class="defile"><table class="cartes"><thead><tr><th>Site</th><th>Page</th><th class="n">Visites</th><th class="n">Clics</th></tr></thead><tbody id="t_pages"></tbody></table></div></div></details>
+      <details class="carte" id="p_part"><summary><h2>Clics par partenaire, 30 jours</h2></summary><div class="corps"><div id="barres"></div></div></details>
     </div>
 
     <div class="deux">
-      <div class="carte"><h2>Pages les plus vues, 7 jours</h2><div class="defile"><table class="cartes"><thead><tr><th>Site</th><th>Page</th><th class="n">Visites</th><th class="n">Clics</th></tr></thead><tbody id="t_pages"></tbody></table></div></div>
-      <div class="carte">
-        <h2>Clics par partenaire, 30 jours</h2><div id="barres"></div>
-        <h2 style="margin-top:16px">Sites d’origine, 30 jours</h2>
-        <div class="defile"><table><thead><tr><th>Origine</th><th class="n">Visites</th></tr></thead><tbody id="t_prov"></tbody></table></div>
-        <h2 style="margin-top:16px">Appareils, 30 jours</h2>
-        <div class="defile"><table><thead><tr><th>Appareil</th><th class="n">Visites</th></tr></thead><tbody id="t_app"></tbody></table></div>
-      </div>
+      <details class="carte" id="p_prov"><summary><h2>Sites d’origine, 30 jours</h2></summary><div class="corps"><div class="defile"><table><thead><tr><th>Origine</th><th class="n">Visites</th></tr></thead><tbody id="t_prov"></tbody></table></div></div></details>
+      <details class="carte" id="p_app"><summary><h2>Appareils, 30 jours</h2></summary><div class="corps"><div class="defile"><table><thead><tr><th>Appareil</th><th class="n">Visites</th></tr></thead><tbody id="t_app"></tbody></table></div></div></details>
     </div>
 
     <div class="deux">
-      <div class="carte"><h2>Pays des visiteurs, 30 jours</h2><div class="defile"><table><thead><tr><th>Pays</th><th class="n">Visites</th></tr></thead><tbody id="t_pays"></tbody></table></div></div>
-      <div class="carte"><h2>Villes des visiteurs, 30 jours</h2><div class="defile"><table><thead><tr><th>Ville</th><th>Pays</th><th class="n">Visites</th></tr></thead><tbody id="t_villes"></tbody></table></div><p class="doux">Ville approximative, déduite du réseau du visiteur.</p></div>
+      <details class="carte" id="p_pays"><summary><h2>Pays des visiteurs, 30 jours</h2></summary><div class="corps"><div class="defile"><table><thead><tr><th>Pays</th><th class="n">Visites</th></tr></thead><tbody id="t_pays"></tbody></table></div></div></details>
+      <details class="carte" id="p_villes"><summary><h2>Villes des visiteurs, 30 jours</h2></summary><div class="corps"><div class="defile"><table><thead><tr><th>Ville</th><th>Pays</th><th class="n">Visites</th></tr></thead><tbody id="t_villes"></tbody></table></div><p class="doux">Ville approximative, déduite du réseau du visiteur.</p></div></details>
     </div>
 
-    <div class="carte"><h2>En direct : les 30 derniers événements</h2><div class="defile"><table class="cartes"><thead><tr><th>Heure</th><th>Site</th><th>Type</th><th>Page</th><th>Partenaire</th><th>Lieu</th><th>Appareil</th></tr></thead><tbody id="t_live"></tbody></table></div></div>
+    <details class="carte" id="p_live"><summary><h2>En direct : les 30 derniers événements</h2></summary><div class="corps"><div class="defile"><table class="cartes"><thead><tr><th>Heure</th><th>Site</th><th>Type</th><th>Page</th><th>Partenaire</th><th>Lieu</th><th>Appareil</th></tr></thead><tbody id="t_live"></tbody></table></div></div></details>
 
     <p class="doux">Mesure sans cookie ; l’adresse IP sert seulement à situer la ville et n’est jamais enregistrée. Une visite = une page affichée ; un clic = un clic vers GetYourGuide, Viator ou Elite Prestige Services. Robots exclus, ainsi que cet appareil. Les ventes et commissions réelles sont dans les espaces partenaires.</p>
   </div>
@@ -192,6 +201,12 @@ input,button{font-size:16px}
   document.addEventListener('visibilitychange',function(){if(!document.hidden&&tok)refresh()});
   var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(function(){if(tok)refresh()},300)});
   if(tok)start();else $('login').hidden=false;
+
+  // fenêtres repliables : on mémorise ce qui est ouvert
+  (function(){var k='cs_admin_open';var s={};try{s=JSON.parse(localStorage.getItem(k)||'{}')}catch(e){}
+    document.querySelectorAll('details.carte').forEach(function(d){if(d.id in s)d.open=!!s[d.id];
+      d.addEventListener('toggle',function(){s[d.id]=d.open;try{localStorage.setItem(k,JSON.stringify(s))}catch(e){}
+        if(d.open&&d.id==='p_graph'){window.dispatchEvent(new Event('resize'))}})})})();
 })();
 </script>
 </body>
