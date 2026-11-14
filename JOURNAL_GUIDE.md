@@ -222,3 +222,12 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 
 ## 2026-11-14 — Widget mobile : remplissage Notre-Dame
 - Signalé par Anthony (La Villette) : sur mobile, le script forçait 2 cartes ; avec 1 seule activité choisie, GYG complétait avec une visite de Notre-Dame. Le nombre de cartes suit maintenant le nombre d’activités choisies (max 2 sur mobile). Toutes les pages FR + EN régénérées.
+
+## 2026-11-15 — Nouvelle page : randonnée du mont Gros (Nice)
+- FR cote-d-azur/mont-gros/, EN french-riviera/mont-gros/ ; carte dans la section Nice de l’index Côte d’Azur, JSON-LD includesAttraction, sitemap, accueil (56 guides Côte d’Azur, compteur corrigé : il affichait 38 et 55).
+- Faits relevés le 15/11 : Wikipédia (mont Gros 375 m, observatoire 1881-1887, Bischoffsheim, Garnier, coupole Eiffel), Visorando « Tour du Vinaigrier » (5,23 km, 2 h 25, +332 m, départ église Saint-Roch, balisage jaune-rouge), provence-alpes-cotedazur.com (parc 31 ha, horaires saisonniers, bus 84 arrêt Sainte-Anne), fiche office de tourisme + OCA (visite guidée obligatoire, 12/10/6 €, 2 h).
+- Pas d’activité GYG/Viator propre au lieu : pas de bloc de réservation, seulement le transfert Elite Prestige (section « Y aller avec un chauffeur privé »).
+- Photo : « Nice Est observatoire 01 » de Cayambe, CC BY-SA 3.0, Wikimedia Commons ; crédit en bas de photo et dans les mentions légales (FR + EN).
+- NOUVEL OUTIL photos : upload.wikimedia.org est bloqué depuis l’environnement de travail. Lister « nom URL » dans main:_outils/photos.txt et pousser : l’action GitHub « Photos (téléchargement) » télécharge dans _photos_brutes/ et commit. Récupérer avec git pull, traiter, puis supprimer _photos_brutes/ (le site a .nojekyll, le dossier serait public).
+- Générateur de la page : guide_gen/generateur/run_mont_gros.py (à partir du gabarit colline-du-chateau).
+- Correctif du 15/11 : la carte « transfert Elite Prestige » avait été retirée par erreur avec les blocs de réservation sur Auron, Isola 2000, Biot, Roquebrune (FR + EN) ; rétablie dans une section « Y aller avec un chauffeur privé » (id="chauffeur").
