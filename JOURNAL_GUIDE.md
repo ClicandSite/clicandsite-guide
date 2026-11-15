@@ -239,3 +239,8 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Photos Commons téléchargées via le workflow photos.yml (ajout pause + 4 tentatives, Commons renvoie 429). Lignes traitées marquées « # fait: » dans _outils/photos.txt.
 - Pas de bloc réservation GYG/Viator sur ces pages (rien de spécifique) ; carte chauffeur EPS uniquement.
 - À surveiller : Tête de Chien, tronçon balises 605-606 signalé fermé (Randoxygène) ; Cap Moderne fermé de novembre à mars.
+
+## 2026-11-15 (nuit) — SEO pages randonnées
+- Titres raccourcis (≤ 52 car. + « | Clic&Site ») et descriptions ≤ 156 car. sur les 13 pages rando FR/EN (seo_meta.py). Attention : run_randos.py régénère avec les anciens titres → relancer seo_meta.py après toute régénération.
+- Liens internes : 21 pages villes/sites (FR+EN) pointent vers les randos dans « À voir à proximité » (seo_links.py) + liens dans le texte sur Èze, Roquebrune, Saint-Jean-Cap-Ferrat.
+- Sitemaps FR et EN renvoyés dans Search Console (FR lu le 15/11 : 223 URL).
