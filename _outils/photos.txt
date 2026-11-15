@@ -28,27 +28,29 @@
 # fait: mala-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Plage_Mala%2C_Cap_d%27Ail_-_panoramio.jpg/1920px-Plage_Mala%2C_Cap_d%27Ail_-_panoramio.jpg
 # fait: mala-c.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Littoral_path_between_Plage_de_la_Mala_and_Plage_Marquet_in_Cap-d%27Ail_01.jpg/1920px-Littoral_path_between_Plage_de_la_Mala_and_Plage_Marquet_in_Cap-d%27Ail_01.jpg
 # fait: mala-d.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sentier_du_littoral%2C_Cr%C3%A9dit_Photo_%40Ville_de_Cap_d%27Ail_%281%29.jpg/1920px-Sentier_du_littoral%2C_Cr%C3%A9dit_Photo_%40Ville_de_Cap_d%27Ail_%281%29.jpg
-ferrat-full.jpg https://upload.wikimedia.org/wikipedia/commons/2/2e/20211209_122308_Le_sentier_du_littoral_%C3%A0_Saint-Jean-Cap-Ferrat.jpg
-cahors-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Cahors_-_Pont_Valentr%C3%A9_-_02.jpg/1920px-Cahors_-_Pont_Valentr%C3%A9_-_02.jpg
-cahors-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pont_Valentre_08.jpg/1920px-Pont_Valentre_08.jpg
-pechmerle-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Chevaux_ponctu%C3%A9s_de_la_grotte_du_Pech_Merle.jpg/1920px-Chevaux_ponctu%C3%A9s_de_la_grotte_du_Pech_Merle.jpg
-pechmerle-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Entrance_to_Pech_Merle.jpg/1920px-Entrance_to_Pech_Merle.jpg
-figeac-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Figeac_-_Vue_du_parvis_de_Notre-Dame_du_Puy.jpg/1920px-Figeac_-_Vue_du_parvis_de_Notre-Dame_du_Puy.jpg
-figeac-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cele_river_in_Figeac_01.jpg/1920px-Cele_river_in_Figeac_01.jpg
-blois-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Louis_XII_wing_of_the_castle_of_Blois_01.jpg/1920px-Louis_XII_wing_of_the_castle_of_Blois_01.jpg
-blois-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Blois_-_ch%C3%A2teau_royal%2C_cour_%2801%29.jpg/1920px-Blois_-_ch%C3%A2teau_royal%2C_cour_%2801%29.jpg
-cheverny-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cheverny-Chateau-VueFrontale.jpg/1920px-Cheverny-Chateau-VueFrontale.jpg
-cheverny-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Castle_of_Cheverny_20.jpg/1920px-Castle_of_Cheverny_20.jpg
-chaumont-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Chaumont-sur-Loire_-_Ch%C3%A2teau_de_Chaumont-sur-Loire2.jpg/1920px-Chaumont-sur-Loire_-_Ch%C3%A2teau_de_Chaumont-sur-Loire2.jpg
-chaumont-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ch%C3%A2teau_de_Chaumont-sur-Loire_20170509-18.jpg/1920px-Ch%C3%A2teau_de_Chaumont-sur-Loire_20170509-18.jpg
-giverny-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Le_jardin_d%27eau_de_Claude_Monet_%28Giverny%29_%2848744053523%29.jpg/1920px-Le_jardin_d%27eau_de_Claude_Monet_%28Giverny%29_%2848744053523%29.jpg
-giverny-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jardins_de_Claude_Monet%2C_bassin_des_Nymph%C3%A9as_02.jpg/1920px-Jardins_de_Claude_Monet%2C_bassin_des_Nymph%C3%A9as_02.jpg
-bayeux-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Cath%C3%A9drale_de_Bayeux%2C_majestueuse.jpg/1920px-Cath%C3%A9drale_de_Bayeux%2C_majestueuse.jpg
-deauville-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Plage_Deauville_-_Deauville_%28FR14%29_-_2021-11-12_-_1.jpg/1920px-Plage_Deauville_-_Deauville_%28FR14%29_-_2021-11-12_-_1.jpg
-deauville-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Deauville-la-plage-fleurie_-_La_Plage.jpg/1920px-Deauville-la-plage-fleurie_-_La_Plage.jpg
-rhune-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Le_train_de_la_Rhune%2C_descente.jpg/1920px-Le_train_de_la_Rhune%2C_descente.jpg
-rhune-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/El_tren_de_la_Rhune_%288%29.jpg/1920px-El_tren_de_la_Rhune_%288%29.jpg
-sjpp-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/00_2786_Saint_Jean-Pied-de-Port%2C_Frankreich%2C.jpg/1920px-00_2786_Saint_Jean-Pied-de-Port%2C_Frankreich%2C.jpg
-sjpp-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Saint-Jean-Pied-de-Port_10.jpg/1920px-Saint-Jean-Pied-de-Port_10.jpg
-ainhoa-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/A%C3%AFnhoa.jpg/1920px-A%C3%AFnhoa.jpg
-ainhoa-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ainhoa_Vue.JPG/1920px-Ainhoa_Vue.JPG
+# fait: ferrat-full.jpg https://upload.wikimedia.org/wikipedia/commons/2/2e/20211209_122308_Le_sentier_du_littoral_%C3%A0_Saint-Jean-Cap-Ferrat.jpg
+# fait: cahors-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Cahors_-_Pont_Valentr%C3%A9_-_02.jpg/1920px-Cahors_-_Pont_Valentr%C3%A9_-_02.jpg
+# fait: cahors-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pont_Valentre_08.jpg/1920px-Pont_Valentre_08.jpg
+# fait: pechmerle-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Chevaux_ponctu%C3%A9s_de_la_grotte_du_Pech_Merle.jpg/1920px-Chevaux_ponctu%C3%A9s_de_la_grotte_du_Pech_Merle.jpg
+# fait: pechmerle-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Entrance_to_Pech_Merle.jpg/1920px-Entrance_to_Pech_Merle.jpg
+# fait: figeac-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Figeac_-_Vue_du_parvis_de_Notre-Dame_du_Puy.jpg/1920px-Figeac_-_Vue_du_parvis_de_Notre-Dame_du_Puy.jpg
+# fait: figeac-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cele_river_in_Figeac_01.jpg/1920px-Cele_river_in_Figeac_01.jpg
+# fait: blois-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Louis_XII_wing_of_the_castle_of_Blois_01.jpg/1920px-Louis_XII_wing_of_the_castle_of_Blois_01.jpg
+# fait: blois-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Blois_-_ch%C3%A2teau_royal%2C_cour_%2801%29.jpg/1920px-Blois_-_ch%C3%A2teau_royal%2C_cour_%2801%29.jpg
+# fait: cheverny-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cheverny-Chateau-VueFrontale.jpg/1920px-Cheverny-Chateau-VueFrontale.jpg
+# fait: cheverny-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Castle_of_Cheverny_20.jpg/1920px-Castle_of_Cheverny_20.jpg
+# fait: chaumont-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Chaumont-sur-Loire_-_Ch%C3%A2teau_de_Chaumont-sur-Loire2.jpg/1920px-Chaumont-sur-Loire_-_Ch%C3%A2teau_de_Chaumont-sur-Loire2.jpg
+# fait: chaumont-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ch%C3%A2teau_de_Chaumont-sur-Loire_20170509-18.jpg/1920px-Ch%C3%A2teau_de_Chaumont-sur-Loire_20170509-18.jpg
+# fait: giverny-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Le_jardin_d%27eau_de_Claude_Monet_%28Giverny%29_%2848744053523%29.jpg/1920px-Le_jardin_d%27eau_de_Claude_Monet_%28Giverny%29_%2848744053523%29.jpg
+# fait: giverny-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jardins_de_Claude_Monet%2C_bassin_des_Nymph%C3%A9as_02.jpg/1920px-Jardins_de_Claude_Monet%2C_bassin_des_Nymph%C3%A9as_02.jpg
+# fait: bayeux-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Cath%C3%A9drale_de_Bayeux%2C_majestueuse.jpg/1920px-Cath%C3%A9drale_de_Bayeux%2C_majestueuse.jpg
+# fait: deauville-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Plage_Deauville_-_Deauville_%28FR14%29_-_2021-11-12_-_1.jpg/1920px-Plage_Deauville_-_Deauville_%28FR14%29_-_2021-11-12_-_1.jpg
+# fait: deauville-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Deauville-la-plage-fleurie_-_La_Plage.jpg/1920px-Deauville-la-plage-fleurie_-_La_Plage.jpg
+# fait: rhune-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Le_train_de_la_Rhune%2C_descente.jpg/1920px-Le_train_de_la_Rhune%2C_descente.jpg
+# fait: rhune-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/El_tren_de_la_Rhune_%288%29.jpg/1920px-El_tren_de_la_Rhune_%288%29.jpg
+# fait: sjpp-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/00_2786_Saint_Jean-Pied-de-Port%2C_Frankreich%2C.jpg/1920px-00_2786_Saint_Jean-Pied-de-Port%2C_Frankreich%2C.jpg
+# fait: sjpp-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Saint-Jean-Pied-de-Port_10.jpg/1920px-Saint-Jean-Pied-de-Port_10.jpg
+# fait: ainhoa-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/A%C3%AFnhoa.jpg/1920px-A%C3%AFnhoa.jpg
+# fait: ainhoa-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ainhoa_Vue.JPG/1920px-Ainhoa_Vue.JPG
+deauville-c.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Les_parasols_de_Deauville.jpg/1920px-Les_parasols_de_Deauville.jpg
+deauville-d.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/End_of_the_season._Deauville%2C_France.jpg/1920px-End_of_the_season._Deauville%2C_France.jpg
