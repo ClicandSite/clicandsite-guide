@@ -54,7 +54,7 @@ def block(cfg, lang):
             f'<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-locale-code="{t["loc"]}" data-gyg-widget="activities" data-gyg-number-of-items="{min(4, len(cfg["gyg_tours"].split(","))) if cfg.get("gyg_tours") else 4}" data-gyg-cmp="{camp}" data-gyg-partner-id="XMYSXGR" '+(f'data-gyg-tour-ids="{cfg["gyg_tours"]}"' if cfg.get("gyg_tours") else f'data-gyg-location-id="{cfg["gyg_loc"]}"')+'></div></div>')
             + (f'<p class="live__s live__s--via">{t["sel"]}</p><ul class="picks">{rows}</ul>' if rows else '') +
             f'<p class="live__all"><a href="{cfg["via_all_url"]}" rel="sponsored nofollow noopener" target="_blank">{t["all"]}{ARR}</a></p>'
-            '<script src="/assets/gyg.js?v=2"></script>'
+            '<script src="/assets/gyg.js?v=3"></script>'
             '</div><!--acts:end-->')
 def apply(root, lang):
     n = 0
