@@ -52,5 +52,25 @@
 # fait: sjpp-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Saint-Jean-Pied-de-Port_10.jpg/1920px-Saint-Jean-Pied-de-Port_10.jpg
 # fait: ainhoa-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/A%C3%AFnhoa.jpg/1920px-A%C3%AFnhoa.jpg
 # fait: ainhoa-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ainhoa_Vue.JPG/1920px-Ainhoa_Vue.JPG
-deauville-c.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Les_parasols_de_Deauville.jpg/1920px-Les_parasols_de_Deauville.jpg
-deauville-d.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/End_of_the_season._Deauville%2C_France.jpg/1920px-End_of_the_season._Deauville%2C_France.jpg
+# fait: deauville-c.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Les_parasols_de_Deauville.jpg/1920px-Les_parasols_de_Deauville.jpg
+# fait: deauville-d.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/End_of_the_season._Deauville%2C_France.jpg/1920px-End_of_the_season._Deauville%2C_France.jpg
+hyeres-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Presqu%27%C3%AEle_de_Giens_vue_du_ciel_-_Tombolo_et_salins_d%27Hy%C3%A8res.JPG/1920px-Presqu%27%C3%AEle_de_Giens_vue_du_ciel_-_Tombolo_et_salins_d%27Hy%C3%A8res.JPG
+hyeres-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hy%C3%A8res_007.jpg/1920px-Hy%C3%A8res_007.jpg
+portcros-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Port_Cros_2013_01.jpg/1920px-Port_Cros_2013_01.jpg
+portcros-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/2011-07-09._%C3%8Ele_de_Port_Cros._La_baie_de_La_Palud.JPG/1920px-2011-07-09._%C3%8Ele_de_Port_Cros._La_baie_de_La_Palud.JPG
+roussillon-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Roussillon_Vaucluse_sentier_des_ocres_2013_07.jpg/1920px-Roussillon_Vaucluse_sentier_des_ocres_2013_07.jpg
+roussillon-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Roussillon_Vaucluse_sentier_des_ocres_2013_09.jpg/1920px-Roussillon_Vaucluse_sentier_des_ocres_2013_09.jpg
+fontaine-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/La_Sorgue_%C3%A0_Fontaine_de_Vaucluse_%282%29.JPG/1920px-La_Sorgue_%C3%A0_Fontaine_de_Vaucluse_%282%29.JPG
+fontaine-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Fontaine-de-Vaucluse_%281%29.jpg/1920px-Fontaine-de-Vaucluse_%281%29.jpg
+ventoux-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flassan_-_Mont_Ventoux_sommet.jpg/1920px-Flassan_-_Mont_Ventoux_sommet.jpg
+ventoux-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ombre_du_Mont_Ventoux_sur_lui_m%C3%AAme.jpg/1920px-Ombre_du_Mont_Ventoux_sur_lui_m%C3%AAme.jpg
+gr34-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg/1920px-00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg
+gr34-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Tr%C3%A9gastel%2C_Le_Sentier_des_Douaniers_-_GR34.jpg/1920px-Tr%C3%A9gastel%2C_Le_Sentier_des_Douaniers_-_GR34.jpg
+quiberon-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/C%C3%B4te_sauvage-Quiberon-2025-03.jpg/1920px-C%C3%B4te_sauvage-Quiberon-2025-03.jpg
+quiberon-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/C%C3%B4te_sauvage-Quiberon-2025-06.jpg/1920px-C%C3%B4te_sauvage-Quiberon-2025-06.jpg
+raz-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pointe_du_Raz%2C_La_Vieille%2C_Sein.jpg/1920px-Pointe_du_Raz%2C_La_Vieille%2C_Sein.jpg
+raz-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pointe_du_Raz._%281%29.jpg/1920px-Pointe_du_Raz._%281%29.jpg
+collioure-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/J29_613_Collioure.jpg/1920px-J29_613_Collioure.jpg
+collioure-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Collioure_-_View_NW_II.jpg/1920px-Collioure_-_View_NW_II.jpg
+vermeille-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Banyuls_sur_mer_6.jpg/1920px-Banyuls_sur_mer_6.jpg
+vermeille-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/C%C3%B4te_Vermeille%2C_regards_fusionnels.jpg/1920px-C%C3%B4te_Vermeille%2C_regards_fusionnels.jpg
