@@ -259,3 +259,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Attention : la photo d'une nouvelle page porte le nom du slug → vérifier qu'aucun asset existant du même nom n'est écrasé (incident giverny corrigé par git checkout).
 - Viator : destinations utilisées Midi-Pyrenees d5512, Blois d50324, Bayeux d909, Deauville-City d50417, Biarritz d23856, Toulon d24308, Gordes d50932, Avignon d483, Brittany d21942, Perpignan d26343.
 - Bayeux : tapisserie au British Museum du 10/09/2026 au 11/07/2027, musée fermé (réouverture 2027) — à mettre à jour à la réouverture.
+
+## 2026-11-15 — Corrections après audit
+- Liens Viator : plus aucun lien `searchResults` ; tout pointe vers des pages destination `dNNN-ttd` (script /tmp/g/viator_dest.py, copié ici : guide_gen/generateur/viator_dest.py). Nouvelles destinations vérifiées : Chamonix d24269, Menton d23076, Arcachon d26516, Mont-St-Michel d25906, Versailles d763, Rhone-Alpes d24268 (Courchevel), Rennes d21943 (Saint-Malo), Bergerac d24181 (Lascaux), Loire-Valley d178 (Chambord).
+- Titres ≤ 70 car. et descriptions ≤ 160 sur les deux sites (shorten.py). ATTENTION : si on régénère des pages avec rando_gen/site_gen/seo_meta, re-lancer shorten.py ensuite.
+- Cannibalisation : titres recentrés pour Montmartre, Rocher de Monaco, Saint-Jean-Cap-Ferrat, Èze, Roquebrune, Ploumanac'h ; liens ajoutés Rocher → palais princier / musée océanographique, Ploumanac'h → GR34.
+- RGPD : le module GetYourGuide est chargé par /assets/gyg.js seulement après clic « Accepter » (localStorage cs_gyg=1). activites.py génère désormais `<script src="/assets/gyg.js?v=1">`. Mentions légales : section RGPD complète (#cookies) + bouton de retrait.
+- Liens internes ajoutés (inlinks.py, par proximité GPS) ; itinéraires 3 jours étoffés ; À propos : méthode, indépendance, mises à jour.
