@@ -272,3 +272,14 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 16/11 (2e passage) : infos-2026 + FAQ forfait FR/EN sur Megève, La Clusaz, Avoriaz, Cauterets (sources : sites des stations et offices de tourisme). Corrigé : fermeture Megève 4/04/2027 (au lieu de « début avril ») ; Avoriaz : « préouverture fin novembre » retirée (non confirmée, ouverture officielle 11/12/2026). Vérifié en ligne dans le navigateur (Megève FR, Cauterets EN).
 - 16/11 (3e passage) : infos-2026 + FAQ forfait FR/EN sur Les 2 Alpes, Montgenèvre, Saint-Lary, Peyragudes. Saint-Lary : fermeture corrigée au 29/03/2027. Reste sans infos-2026 : La Grave, SuperDévoluy, Châtel, Grand Tourmalet. Vérifié en ligne (Saint-Lary FR, Les 2 Alpes EN).
 - 16/11 (4e passage) : infos-2026 + FAQ forfait FR/EN sur La Grave, Dévoluy, Châtel, Grand Tourmalet → toutes les stations Alpes et Pyrénées ont leur section infos-2026. La Grave : dates corrigées 19/12/2026-2/05/2027 et 68 € (office de tourisme des Hautes Vallées) sur la page, les cartes et l'agenda des stations. Vérifié en ligne (La Grave FR, Grand Tourmalet EN).
+
+## 16/11/2026 — 6 pages d'hiver FR+EN
+- idees/prix-forfaits-ski-2026-2027 ↔ ideas/ski-pass-prices-2026-2027 (tableau 24 stations, CSS .tbl ajouté, style.css?v=w1116)
+- idees/marches-de-noel-alsace ↔ ideas/alsace-christmas-markets
+- idees/reveillon-nouvel-an ↔ ideas/new-years-eve-france (Nice : programme officiel 2026 pas encore publié → à mettre à jour dès sa sortie)
+- idees/vacances-de-fevrier-2027 ↔ ideas/february-school-holidays-2027
+- cote-d-azur/rallye-monte-carlo ↔ french-riviera/monte-carlo-rally (Event 21-24/01/2027)
+- cote-d-azur/route-du-mimosa ↔ french-riviera/mimosa-route (Event 10-14/02/2027)
+- Cartes Idées + région Côte d'Azur, sitemaps, liens entrants depuis stations, Strasbourg, Colmar, Noël à Paris, Côte d'Azur en hiver, Monaco, Mandelieu, Où partir en hiver
+- Générateur : guide_gen/generateur/winter_gen.py + winter_data.py
+- controle.py : 0 erreur FR et EN ; workflows verts ; 12 pages en ligne vérifiées (200, liens partenaires OK)
