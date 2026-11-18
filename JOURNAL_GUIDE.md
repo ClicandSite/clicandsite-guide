@@ -311,3 +311,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - sitemap_dates.py : passer le domaine AVEC https:// (sinon 0 mise à jour).
 - Tarifs 2026 vérifiés : Haut-Kœnigsbourg 12/8 €, musée Automobile 19 €, Cité du Train 16 €, Mémorial 20,80/18,50 €, Abbadia 12,90/9,90 €, grottes de Sare 10/6 €, musée de la Corse 5,50/4 €, pic du Jer 14,50 € A/R, procession Lourdes 21 h du 5/04 au 1/11/2026.
 - Liens partenaires : GYG colmar-l2924, chateau-du-haut-koenigsbourg-l132238, obernai-l102201, memorial-de-caen-l5062, deauville-l33006, rennes-l2681, sauzon-l190848, gulf-of-morbihan-l161168, cancale-l148240, french-basque-country-l117470, corte-l32543, lourdes-l311 ; Viator Obernai d51227, Normandy d183, Corte d24042, produit cap Corse d24042-5501928P1, produit Mulhouse d22940-76654P670.
+
+## 18/11/2026 (soir) — Page « Où partir en France en 2027 » + épingles publiées
+- Page FR idees/ou-partir-en-france-en-2027, EN ideas/where-to-go-in-france-in-2027 (script /tmp/g/ou_partir_2027.py, modèle winter_gen). Liens entrants depuis ou-partir-en-hiver, vacances-de-fevrier-2027, marches-de-noel-alsace.
+- Pinterest : site clicandsite.fr revendiqué (meta p:domain_verify sur l'accueil FR).
+- Méthode qui marche pour publier : images d'épingle dans assets/pins/ + bloc <figure class="pinit"> sur la page (avant la FAQ) ; Pinterest « Enregistrer depuis l'URL » avec l'URL de la PAGE → le lien de destination = la page. (Upload de fichier refusé hors mode auto ; fetch bloqué par la CSP Pinterest ; modifier le lien après coup échoue.)
+- Publiées : 2027, Bordeaux, Marseille, Eguisheim (tableau Idées de voyage en France), Monaco (Côte d'Azur). Une 1re épingle « Où partir 2027 » pointe vers l'image jpg (pin 230035493464319708) : à supprimer avec l'accord d'Anthony.
+- Tableaux : Côte d'Azur, Idées de voyage en France, Noël et Nouvel An, Ski et montagne.
