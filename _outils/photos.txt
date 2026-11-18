@@ -54,38 +54,38 @@
 # fait: ainhoa-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ainhoa_Vue.JPG/1920px-Ainhoa_Vue.JPG
 # fait: deauville-c.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Les_parasols_de_Deauville.jpg/1920px-Les_parasols_de_Deauville.jpg
 # fait: deauville-d.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/End_of_the_season._Deauville%2C_France.jpg/1920px-End_of_the_season._Deauville%2C_France.jpg
-hyeres-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Presqu%27%C3%AEle_de_Giens_vue_du_ciel_-_Tombolo_et_salins_d%27Hy%C3%A8res.JPG/1920px-Presqu%27%C3%AEle_de_Giens_vue_du_ciel_-_Tombolo_et_salins_d%27Hy%C3%A8res.JPG
-hyeres-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hy%C3%A8res_007.jpg/1920px-Hy%C3%A8res_007.jpg
-portcros-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Port_Cros_2013_01.jpg/1920px-Port_Cros_2013_01.jpg
-portcros-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/2011-07-09._%C3%8Ele_de_Port_Cros._La_baie_de_La_Palud.JPG/1920px-2011-07-09._%C3%8Ele_de_Port_Cros._La_baie_de_La_Palud.JPG
-roussillon-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Roussillon_Vaucluse_sentier_des_ocres_2013_07.jpg/1920px-Roussillon_Vaucluse_sentier_des_ocres_2013_07.jpg
-roussillon-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Roussillon_Vaucluse_sentier_des_ocres_2013_09.jpg/1920px-Roussillon_Vaucluse_sentier_des_ocres_2013_09.jpg
-fontaine-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/La_Sorgue_%C3%A0_Fontaine_de_Vaucluse_%282%29.JPG/1920px-La_Sorgue_%C3%A0_Fontaine_de_Vaucluse_%282%29.JPG
-fontaine-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Fontaine-de-Vaucluse_%281%29.jpg/1920px-Fontaine-de-Vaucluse_%281%29.jpg
-ventoux-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flassan_-_Mont_Ventoux_sommet.jpg/1920px-Flassan_-_Mont_Ventoux_sommet.jpg
-ventoux-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ombre_du_Mont_Ventoux_sur_lui_m%C3%AAme.jpg/1920px-Ombre_du_Mont_Ventoux_sur_lui_m%C3%AAme.jpg
-gr34-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg/1920px-00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg
-gr34-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Tr%C3%A9gastel%2C_Le_Sentier_des_Douaniers_-_GR34.jpg/1920px-Tr%C3%A9gastel%2C_Le_Sentier_des_Douaniers_-_GR34.jpg
-quiberon-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/C%C3%B4te_sauvage-Quiberon-2025-03.jpg/1920px-C%C3%B4te_sauvage-Quiberon-2025-03.jpg
-quiberon-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/C%C3%B4te_sauvage-Quiberon-2025-06.jpg/1920px-C%C3%B4te_sauvage-Quiberon-2025-06.jpg
-raz-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pointe_du_Raz%2C_La_Vieille%2C_Sein.jpg/1920px-Pointe_du_Raz%2C_La_Vieille%2C_Sein.jpg
-raz-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pointe_du_Raz._%281%29.jpg/1920px-Pointe_du_Raz._%281%29.jpg
-collioure-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/J29_613_Collioure.jpg/1920px-J29_613_Collioure.jpg
-collioure-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Collioure_-_View_NW_II.jpg/1920px-Collioure_-_View_NW_II.jpg
-vermeille-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Banyuls_sur_mer_6.jpg/1920px-Banyuls_sur_mer_6.jpg
-vermeille-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/C%C3%B4te_Vermeille%2C_regards_fusionnels.jpg/1920px-C%C3%B4te_Vermeille%2C_regards_fusionnels.jpg
-eguisheim.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Eguisheim_%2814375233535%29.jpg/1920px-Eguisheim_%2814375233535%29.jpg
-haut-koenigsbourg.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg/1920px-Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg
-obernai.jpg https://upload.wikimedia.org/wikipedia/commons/1/1a/2010.05.29.150919_Place_du_March%C3%A9_Obernai_FR.jpg
-mulhouse.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Place_de_la_r%C3%A9union%2C_Mulhouse_-_Renaissance_houses.jpg/1920px-Place_de_la_r%C3%A9union%2C_Mulhouse_-_Renaissance_houses.jpg
-caen.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Caen_Ch%C3%A2teau_de_Caen_Blick_auf_die_Abbaye_aux_Hommes.jpg/1920px-Caen_Ch%C3%A2teau_de_Caen_Blick_auf_die_Abbaye_aux_Hommes.jpg
-trouville.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/00_7497_Trouville-sur-Mer.jpg/1920px-00_7497_Trouville-sur-Mer.jpg
-rennes.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Rennes-Place-du-Champ-Jacquet-Maisons-Colombages-Mars-2020.jpg/3000px-Rennes-Place-du-Champ-Jacquet-Maisons-Colombages-Mars-2020.jpg
-belle-ile.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Bangor_aiguilles_de_port_coton_2014h.jpg/1920px-Bangor_aiguilles_de_port_coton_2014h.jpg
-golfe-du-morbihan.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Cruise_boat%2C_islands_of_gulf_of_Morbihan%2C_France.jpg/2560px-Cruise_boat%2C_islands_of_gulf_of_Morbihan%2C_France.jpg
-cancale.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/France_Cancale_bordercropped.jpg/2400px-France_Cancale_bordercropped.jpg
-hendaye.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Hendaye-Les_Deux_Jumeaux-20120409.jpg/1920px-Hendaye-Les_Deux_Jumeaux-20120409.jpg
-sare.jpg https://upload.wikimedia.org/wikipedia/commons/e/e9/Le_beau_profil_du_village_de_Sare_-_panoramio.jpg
-corte.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Citadelle_de_Corte%2C_Corte%2C_Corsica%2C_France.jpg/1920px-Citadelle_de_Corte%2C_Corte%2C_Corsica%2C_France.jpg
-cap-corse.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Brando-Erbalunga.jpg/1920px-Brando-Erbalunga.jpg
-lourdes.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/00_3098._Basilica_of_the_Immaculate_Conception.jpg/1920px-00_3098._Basilica_of_the_Immaculate_Conception.jpg
+# fait: hyeres-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Presqu%27%C3%AEle_de_Giens_vue_du_ciel_-_Tombolo_et_salins_d%27Hy%C3%A8res.JPG/1920px-Presqu%27%C3%AEle_de_Giens_vue_du_ciel_-_Tombolo_et_salins_d%27Hy%C3%A8res.JPG
+# fait: hyeres-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hy%C3%A8res_007.jpg/1920px-Hy%C3%A8res_007.jpg
+# fait: portcros-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Port_Cros_2013_01.jpg/1920px-Port_Cros_2013_01.jpg
+# fait: portcros-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/2011-07-09._%C3%8Ele_de_Port_Cros._La_baie_de_La_Palud.JPG/1920px-2011-07-09._%C3%8Ele_de_Port_Cros._La_baie_de_La_Palud.JPG
+# fait: roussillon-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Roussillon_Vaucluse_sentier_des_ocres_2013_07.jpg/1920px-Roussillon_Vaucluse_sentier_des_ocres_2013_07.jpg
+# fait: roussillon-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Roussillon_Vaucluse_sentier_des_ocres_2013_09.jpg/1920px-Roussillon_Vaucluse_sentier_des_ocres_2013_09.jpg
+# fait: fontaine-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/La_Sorgue_%C3%A0_Fontaine_de_Vaucluse_%282%29.JPG/1920px-La_Sorgue_%C3%A0_Fontaine_de_Vaucluse_%282%29.JPG
+# fait: fontaine-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Fontaine-de-Vaucluse_%281%29.jpg/1920px-Fontaine-de-Vaucluse_%281%29.jpg
+# fait: ventoux-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flassan_-_Mont_Ventoux_sommet.jpg/1920px-Flassan_-_Mont_Ventoux_sommet.jpg
+# fait: ventoux-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ombre_du_Mont_Ventoux_sur_lui_m%C3%AAme.jpg/1920px-Ombre_du_Mont_Ventoux_sur_lui_m%C3%AAme.jpg
+# fait: gr34-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg/1920px-00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg
+# fait: gr34-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Tr%C3%A9gastel%2C_Le_Sentier_des_Douaniers_-_GR34.jpg/1920px-Tr%C3%A9gastel%2C_Le_Sentier_des_Douaniers_-_GR34.jpg
+# fait: quiberon-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/C%C3%B4te_sauvage-Quiberon-2025-03.jpg/1920px-C%C3%B4te_sauvage-Quiberon-2025-03.jpg
+# fait: quiberon-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/C%C3%B4te_sauvage-Quiberon-2025-06.jpg/1920px-C%C3%B4te_sauvage-Quiberon-2025-06.jpg
+# fait: raz-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pointe_du_Raz%2C_La_Vieille%2C_Sein.jpg/1920px-Pointe_du_Raz%2C_La_Vieille%2C_Sein.jpg
+# fait: raz-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pointe_du_Raz._%281%29.jpg/1920px-Pointe_du_Raz._%281%29.jpg
+# fait: collioure-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/J29_613_Collioure.jpg/1920px-J29_613_Collioure.jpg
+# fait: collioure-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Collioure_-_View_NW_II.jpg/1920px-Collioure_-_View_NW_II.jpg
+# fait: vermeille-a.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Banyuls_sur_mer_6.jpg/1920px-Banyuls_sur_mer_6.jpg
+# fait: vermeille-b.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/C%C3%B4te_Vermeille%2C_regards_fusionnels.jpg/1920px-C%C3%B4te_Vermeille%2C_regards_fusionnels.jpg
+# fait: eguisheim.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Eguisheim_%2814375233535%29.jpg/1920px-Eguisheim_%2814375233535%29.jpg
+# fait: haut-koenigsbourg.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg/1920px-Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg
+# fait: obernai.jpg https://upload.wikimedia.org/wikipedia/commons/1/1a/2010.05.29.150919_Place_du_March%C3%A9_Obernai_FR.jpg
+# fait: mulhouse.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Place_de_la_r%C3%A9union%2C_Mulhouse_-_Renaissance_houses.jpg/1920px-Place_de_la_r%C3%A9union%2C_Mulhouse_-_Renaissance_houses.jpg
+# fait: caen.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Caen_Ch%C3%A2teau_de_Caen_Blick_auf_die_Abbaye_aux_Hommes.jpg/1920px-Caen_Ch%C3%A2teau_de_Caen_Blick_auf_die_Abbaye_aux_Hommes.jpg
+# fait: trouville.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/00_7497_Trouville-sur-Mer.jpg/1920px-00_7497_Trouville-sur-Mer.jpg
+rennes.jpg https://upload.wikimedia.org/wikipedia/commons/9/90/Rennes-Place-du-Champ-Jacquet-Maisons-Colombages-Mars-2020.jpg
+# fait: belle-ile.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Bangor_aiguilles_de_port_coton_2014h.jpg/1920px-Bangor_aiguilles_de_port_coton_2014h.jpg
+golfe-du-morbihan.jpg https://upload.wikimedia.org/wikipedia/commons/0/03/Cruise_boat%2C_islands_of_gulf_of_Morbihan%2C_France.jpg
+cancale.jpg https://upload.wikimedia.org/wikipedia/commons/2/26/France_Cancale_bordercropped.jpg
+# fait: hendaye.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Hendaye-Les_Deux_Jumeaux-20120409.jpg/1920px-Hendaye-Les_Deux_Jumeaux-20120409.jpg
+# fait: sare.jpg https://upload.wikimedia.org/wikipedia/commons/e/e9/Le_beau_profil_du_village_de_Sare_-_panoramio.jpg
+# fait: corte.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Citadelle_de_Corte%2C_Corte%2C_Corsica%2C_France.jpg/1920px-Citadelle_de_Corte%2C_Corte%2C_Corsica%2C_France.jpg
+# fait: cap-corse.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Brando-Erbalunga.jpg/1920px-Brando-Erbalunga.jpg
+# fait: lourdes.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/00_3098._Basilica_of_the_Immaculate_Conception.jpg/1920px-00_3098._Basilica_of_the_Immaculate_Conception.jpg
