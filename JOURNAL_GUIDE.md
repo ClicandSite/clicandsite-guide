@@ -290,3 +290,9 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Search Console : .com, « Valider la correction » lancée sur les anciennes URL http/www en noindex
 - Pinterest : compte pro ClicAndsite, 4 tableaux publics, 12 épingles publiées (scripts /tmp/pin)
 - AdSense : balise meta + ads.txt (pub-9562574817844558), sites .fr et .com soumis
+
+## 18/11/2026 (nuit) — SEO régions
+- Infos pratiques 2026 + FAQ (FR+EN) : Mont-Saint-Michel, Étretat, Honfleur, Rouen (Armada 17-27/06/2027), plages du Débarquement, Strasbourg, Colmar, Riquewihr, Kaysersberg ; ajouts Quimper (MBA fermé jusqu’en 2027), Ploumanac’h (parkings 2026), Espelette (marché mercredi)
+- Sections annuelles (#g-annee) sur les hubs Bretagne, Normandie, Alsace, Pays basque, Corse
+- Script : guide_gen/generateur/seo_regions_1118.py + regions_hub_1118.py
+- À faire : Quimper et Ploumanac’h n’ont aucun lien partenaire (chercher des activités GYG/Viator pertinentes)
