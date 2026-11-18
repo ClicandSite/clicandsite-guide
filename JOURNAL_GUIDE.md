@@ -283,3 +283,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Cartes Idées + région Côte d'Azur, sitemaps, liens entrants depuis stations, Strasbourg, Colmar, Noël à Paris, Côte d'Azur en hiver, Monaco, Mandelieu, Où partir en hiver
 - Générateur : guide_gen/generateur/winter_gen.py + winter_data.py
 - controle.py : 0 erreur FR et EN ; workflows verts ; 12 pages en ligne vérifiées (200, liens partenaires OK)
+
+## 18/11/2026
+- Stats : la fonction collect (Supabase) ignore désormais les IP de Google (goog.json + plages des robots), en plus du filtre user-agent
+- mentions-legales.html (ancienne URL) redirigée vers /mentions-legales/
+- Search Console : .com, « Valider la correction » lancée sur les anciennes URL http/www en noindex
+- Pinterest : compte pro ClicAndsite, 4 tableaux publics, 12 épingles publiées (scripts /tmp/pin)
+- AdSense : balise meta + ads.txt (pub-9562574817844558), sites .fr et .com soumis
