@@ -1,0 +1,5 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Envoi</title></head><body><p>Envoi des images…</p><script>
+(async()=>{const t=window.opener||window.parent;const f=(new URLSearchParams(location.search).get('f')||'').split(',').filter(x=>/^[a-z0-9-]+\.jpg$/.test(x));
+for(const n of f){const b=await (await fetch('/assets/ig/'+n)).blob();t.postMessage({name:n,blob:b},'https://www.instagram.com');}
+document.body.textContent='OK '+f.length;if(window.opener)setTimeout(()=>window.close(),1500);})();
+</script></body></html>
