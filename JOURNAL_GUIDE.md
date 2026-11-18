@@ -302,3 +302,12 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Ajout FR+EN (script guide_gen/generateur/ski_acts.py, sans widget) : Tignes, Val d'Isère, Val Thorens, Méribel, Les Menuires, Les Arcs, Avoriaz, La Clusaz, Cauterets, Grand Tourmalet, Padirac, Marqueyssac, Milandes. Chaque lien vérifié dans le navigateur.
 - Sans offre pertinente (pas de lien) : Châtel, La Grave, Superdévoluy, Font-Romeu, Saint-Lary, Peyragudes. Revoir à chaque passage SEO.
 - 18/11 : liens ajoutés sur cote-d-azur/3-jours, paris/3-jours (repris des pages Villefranche, Monaco, Lérins, Sainte-Chapelle, Louvre, Tour Eiffel) et paris/batignolles (visite privée Viator d479-30791P281 + Montmartre). Script itin_acts.py.
+
+## 18/11/2026 (nuit) — 15 nouvelles pages régions (FR+EN)
+- Alsace : eguisheim, haut-koenigsbourg, obernai, mulhouse. Normandie : caen, trouville. Bretagne : rennes, belle-ile, golfe-du-morbihan, cancale. Pays basque : hendaye, sare. Corse : corte, cap-corse. Pyrénées : lourdes. Mêmes slugs FR/EN.
+- Générateur : run_new15.py + data_new15a/b/c.py (site_gen.py) ; liens entrants : inlinks_new15.py (blocs « À voir à proximité » ajoutés sur colmar, strasbourg, saint-malo, saint-jean-de-luz, cauterets…).
+- Photos Commons (crédits page + mentions légales) : Pug Girl CC BY 2.0, Gzen92, Hermann Luyken, Pieter Smits CC BY 2.0, Zairon, W. Bulach (Trouville, Lourdes), Erwan Corre, Franck-fnba, Jebulon CC0, Alan M Hughes, Daniel Villafruela, Gilles Guillamot, Bj.schoenmakers CC0, Pierre Bona.
+- Photos : le workflow n'accepte que les largeurs standard (1920) ou l'original ; 2400/2560/3000px échouent. Lignes traitées marquées « # fait: ». _photos_brutes supprimé.
+- sitemap_dates.py : passer le domaine AVEC https:// (sinon 0 mise à jour).
+- Tarifs 2026 vérifiés : Haut-Kœnigsbourg 12/8 €, musée Automobile 19 €, Cité du Train 16 €, Mémorial 20,80/18,50 €, Abbadia 12,90/9,90 €, grottes de Sare 10/6 €, musée de la Corse 5,50/4 €, pic du Jer 14,50 € A/R, procession Lourdes 21 h du 5/04 au 1/11/2026.
+- Liens partenaires : GYG colmar-l2924, chateau-du-haut-koenigsbourg-l132238, obernai-l102201, memorial-de-caen-l5062, deauville-l33006, rennes-l2681, sauzon-l190848, gulf-of-morbihan-l161168, cancale-l148240, french-basque-country-l117470, corte-l32543, lourdes-l311 ; Viator Obernai d51227, Normandy d183, Corte d24042, produit cap Corse d24042-5501928P1, produit Mulhouse d22940-76654P670.
