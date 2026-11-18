@@ -301,3 +301,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 ## 18/11/2026 — Liens partenaires sur les pages qui n'en avaient pas
 - Ajout FR+EN (script guide_gen/generateur/ski_acts.py, sans widget) : Tignes, Val d'Isère, Val Thorens, Méribel, Les Menuires, Les Arcs, Avoriaz, La Clusaz, Cauterets, Grand Tourmalet, Padirac, Marqueyssac, Milandes. Chaque lien vérifié dans le navigateur.
 - Sans offre pertinente (pas de lien) : Châtel, La Grave, Superdévoluy, Font-Romeu, Saint-Lary, Peyragudes. Revoir à chaque passage SEO.
+- 18/11 : liens ajoutés sur cote-d-azur/3-jours, paris/3-jours (repris des pages Villefranche, Monaco, Lérins, Sainte-Chapelle, Louvre, Tour Eiffel) et paris/batignolles (visite privée Viator d479-30791P281 + Montmartre). Script itin_acts.py.
