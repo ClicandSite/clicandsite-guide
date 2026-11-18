@@ -296,3 +296,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Sections annuelles (#g-annee) sur les hubs Bretagne, Normandie, Alsace, Pays basque, Corse
 - Script : guide_gen/generateur/seo_regions_1118.py + regions_hub_1118.py
 - À faire : Quimper et Ploumanac’h n’ont aucun lien partenaire (chercher des activités GYG/Viator pertinentes)
+- Quimper : section #reserver ajoutée (GYG quimper-l99276, croisière Glénan t606317, widget 606317+677349, Viator Bretagne d21942). Ploumanac’h : aucune offre GYG/Viator à Perros-Guirec (vérifié 18/11) → pas de section, à revoir si une offre apparaît
