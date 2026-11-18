@@ -297,3 +297,7 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Script : guide_gen/generateur/seo_regions_1118.py + regions_hub_1118.py
 - À faire : Quimper et Ploumanac’h n’ont aucun lien partenaire (chercher des activités GYG/Viator pertinentes)
 - Quimper : section #reserver ajoutée (GYG quimper-l99276, croisière Glénan t606317, widget 606317+677349, Viator Bretagne d21942). Ploumanac’h : aucune offre GYG/Viator à Perros-Guirec (vérifié 18/11) → pas de section, à revoir si une offre apparaît
+
+## 18/11/2026 — Liens partenaires sur les pages qui n'en avaient pas
+- Ajout FR+EN (script guide_gen/generateur/ski_acts.py, sans widget) : Tignes, Val d'Isère, Val Thorens, Méribel, Les Menuires, Les Arcs, Avoriaz, La Clusaz, Cauterets, Grand Tourmalet, Padirac, Marqueyssac, Milandes. Chaque lien vérifié dans le navigateur.
+- Sans offre pertinente (pas de lien) : Châtel, La Grave, Superdévoluy, Font-Romeu, Saint-Lary, Peyragudes. Revoir à chaque passage SEO.
