@@ -322,3 +322,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - 18/11 23h45 : épingles Strasbourg et Colmar publiées (tableau Noël et Nouvel An). La programmation n'existe pas dans le générateur « depuis l'URL » (seulement Supprimer/Dupliquer). File d'attente prête (images en ligne + bloc pinit sur les pages) : 20 Riquewihr (Noël et Nouvel An), 21 Chamonix et 22 Courchevel (Ski et montagne), 23 tour Eiffel, 24 Mont-Saint-Michel, 27 Versailles (Idées de voyage), 25 Nice et 26 Cannes (Côte d'Azur). Publier 1 à 2 par passage SEO.
 - 18/11 23h50 : Riquewihr publiée (Noël et Nouvel An). Reste en file : 21 Chamonix, 22 Courchevel, 23 tour Eiffel, 24 Mont-Saint-Michel, 25 Nice, 26 Cannes, 27 Versailles.
 - 19/11 00h20 : Instagram @clicandsite (basculer depuis abracadeal.fr dans Chrome) : 3 publications 4:5 — Colmar Noël, Où partir 2027, Chamonix (légendes ≤5 hashtags, partage Facebook « Tonino Cannes » laissé désactivé). Méthode : images dans assets/ig/ + page assets/ig/send.html (noindex, robots Disallow) ouverte par un bouton injecté sur instagram.com → postMessage du blob → DataTransfer sur l'input file du dialogue Créer. Recadrage : icône en bas à gauche → 4:5. Images IG générées avec /tmp/ig/make.py (post()).
+
+## 19/11/2026 — SEO
+- AdSense : ads.txt .com vérifié en ligne (https et www → redirection), « Introuvable » = contrôle AdSense 7 min après la mise en ligne ; revérification auto
+- Pinterest : profil complet (nom, photo, description, site), clicandsite.fr revendiqué
+- Stats 7 j hors robots (Mountain View, Prineville…) et hors Cannes : 93 vues, 5 clics partenaires ; 24 h : 4 vues
+- Nouvelle page FR idees/saint-valentin-2027, EN ideas/valentines-day-2027 (script saint_valentin.py, winter_gen avec date) ; carte sur l’index Idées, sitemap, liens entrants : vacances-de-fevrier-2027 / february-school-holidays-2027, croisiere-sur-la-seine / seine-cruise, eze
+- Épingle 28-saint-valentin (make_pins5.py) + bloc pinit sur la page FR

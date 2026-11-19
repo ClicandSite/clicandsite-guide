@@ -62,7 +62,7 @@ def build(p, lang):
     lds = []
     crumbs = [(L['home'], DOM[lang])] + [(n, DOM[lang] + u) for n, u in L['crumbs']] + [(tx(L['h1']), url)]
     art = {"@context": "https://schema.org", "@type": "Article", "headline": tx(L['h1']), "description": desc, "inLanguage": 'fr-FR' if lang == 'fr' else 'en-GB',
-           "author": {"@type": "Organization", "name": "Clic&Site"}, "dateModified": "2026-11-16", "image": DOM[lang] + 'assets/photos/' + p['photo'] + '.jpg'}
+           "author": {"@type": "Organization", "name": "Clic&Site"}, "dateModified": p.get("date", "2026-11-16"), "image": DOM[lang] + 'assets/photos/' + p['photo'] + '.jpg'}
     lds.append(art)
     if p.get('event'):
         ev = dict(p['event'][lang]); ev.update({"@context": "https://schema.org", "@type": "Event", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "eventStatus": "https://schema.org/EventScheduled", "image": DOM[lang] + 'assets/photos/' + p['photo'] + '.jpg'})
