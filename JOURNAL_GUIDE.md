@@ -329,3 +329,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Stats 7 j hors robots (Mountain View, Prineville…) et hors Cannes : 93 vues, 5 clics partenaires ; 24 h : 4 vues
 - Nouvelle page FR idees/saint-valentin-2027, EN ideas/valentines-day-2027 (script saint_valentin.py, winter_gen avec date) ; carte sur l’index Idées, sitemap, liens entrants : vacances-de-fevrier-2027 / february-school-holidays-2027, croisiere-sur-la-seine / seine-cruise, eze
 - Épingle 28-saint-valentin (make_pins5.py) + bloc pinit sur la page FR
+- Pinterest 19/11 : publiées Saint-Valentin 2027 (Idées de voyage en France) et Chamonix (Ski et montagne). Reste en file : 22 Courchevel, 23 tour Eiffel, 24 Mont-Saint-Michel, 25 Nice, 26 Cannes, 27 Versailles
