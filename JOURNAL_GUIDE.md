@@ -335,3 +335,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Astuce : champ de recherche à (440,25) dans le cadre 800x600 ; ne pas réutiliser les ref après navigation
 - 19/11 23h55 : menu burger étendu jusqu'à 1399 px (avant 900 px) FR+EN — sur tablette (901-1399 px) les 13 liens régions passaient sur plusieurs lignes et le FR/EN se baladait. Barre complète sur une ligne dès 1400 px (vérifié FR et EN). style.css?v=w1119
 - 20/11 13h : Search Console — rapport Pages (en retard de quelques jours) : FR 167 indexées / 81 non, EN 133 / 120. Inspection en direct : déjà sur Google FR saint-valentin-2027, eguisheim, caen, marches-de-noel-alsace, reveillon-nouvel-an ; EN valentines-day-2027. Indexation demandée : FR normandie/trouville. Quota toujours dépassé (fenêtre de 24 h glissante, réessayer après ~18 h). Ancienne URL conseils/combien-coute-un-site-internet renvoie bien 404 (normal).
+
+## 20/11/2026 — SEO
+- controle.py : 0 erreur FR et EN
+- Nouvelle page FR idees/marches-de-noel-france, EN ideas/christmas-markets-france (calendrier 2026 : La Défense, Tuileries, Champs-Élysées, Notre-Dame, Colmar, Strasbourg, Riquewihr/Kaysersberg, Nice/Cannes, Monaco — dates reprises des pages vérifiées). Carte en tête de l’index Idées, sitemap, liens entrants depuis marches-de-noel-alsace, noel-a-paris, noel-cote-d-azur, ou-partir-en-hiver (+ EN). Script noel_france.py / noel_links.py. Vérifié en ligne : liens internes 200, partenaires GYG Strasbourg tc2182 + Paris l16, Viator d5502 + d479.
+- sitemap : le changement de version CSS du 19/11 avait mis toutes les pages au 19/11 → dates restaurées. sitemap_dates.py ignore désormais les commits marqués [sans-date] (et celui du burger). À lancer APRÈS le commit des pages.
+- Pinterest : publiées 29 Marchés de Noël en France (Noël et Nouvel An) et 22 Courchevel (Ski et montagne). Reste : 23 tour Eiffel, 24 Mont-Saint-Michel, 25 Nice, 26 Cannes, 27 Versailles.
+- Stats 7 j hors robots et hors Cannes : 87 vues, 5 clics.
