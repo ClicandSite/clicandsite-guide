@@ -342,3 +342,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - sitemap : le changement de version CSS du 19/11 avait mis toutes les pages au 19/11 → dates restaurées. sitemap_dates.py ignore désormais les commits marqués [sans-date] (et celui du burger). À lancer APRÈS le commit des pages.
 - Pinterest : publiées 29 Marchés de Noël en France (Noël et Nouvel An) et 22 Courchevel (Ski et montagne). Reste : 23 tour Eiffel, 24 Mont-Saint-Michel, 25 Nice, 26 Cannes, 27 Versailles.
 - Stats 7 j hors robots et hors Cannes : 87 vues, 5 clics.
+
+## 21/11/2026 (3 h) — SEO
+- controle.py : 0 erreur FR et EN
+- Nouvelle page FR idees/vacances-de-noel-2026, EN ideas/christmas-holidays-2026 : dates officielles 19/12/2026 → 4/1/2027 (arrêté du 22/10/2025, service-public.gouv.fr), agenda (Megève/La Grave 19 déc., fermetures des marchés, réveillon), idées ski / marchés / réveillon / Côte d'Azur / Paris. Carte en tête de l'index Idées, sitemap, liens entrants depuis stations-de-ski-ouvertes, marches-de-noel-france, reveillon-nouvel-an, ou-partir-en-hiver (+ EN). Partenaires copiés des pages vérifiées : GYG Alpes sports d'hiver tc113 + Seine l2601, Viator Rhône-Alpes d24268 + Paris d479.
+- Épingle 30-vacances-noel créée + bloc pinit (pas encore publiée : Chrome déconnecté)
+- Pas de navigateur disponible (Chrome déconnecté, navigateur intégré indisponible) : vérification en ligne, épingles et indexation reportées
+- Stats 24 h hors robots et hors Cannes : 10 vues (dont une venue de gemini.google.com sur la-grave EN) ; 7 j : 76 vues, 4 clics
