@@ -10,10 +10,10 @@ GHOST = {'fr': 'https://www.getyourguide.fr/', 'en': 'https://www.getyourguide.c
 VPRE = {'fr': 'fr-FR/', 'en': ''}
 PID = 'pid=P00331213&amp;mcid=42383&amp;medium=link&amp;campaign='
 L = {'fr': dict(credit='Photo : ', pd='domaine public', faq='Questions fréquentes', fiche='En bref', home='Accueil', near_h='À voir à proximité',
-                hist='Un peu d’histoire', bk='Billets', bkv='Autres billets', cta_k='À réserver', cta_v='ou autres billets', date='15 novembre 2026',
+                hist='Un peu d’histoire', bk='Billets', bkv='Autres billets', cta_k='À réserver', cta_v='ou autres billets', date='18 novembre 2026',
                 lead='Réservation en ligne en quelques minutes, annulation gratuite sur la plupart des activités et avis de voyageurs pour bien choisir.'),
      'en': dict(credit='Photo: ', pd='public domain', faq='Frequently asked questions', fiche='At a glance', home='Home', near_h='Nearby',
-                hist='A bit of history', bk='Tickets', bkv='More tickets', cta_k='Book ahead', cta_v='or more tickets', date='15 November 2026',
+                hist='A bit of history', bk='Tickets', bkv='More tickets', cta_k='Book ahead', cta_v='or more tickets', date='18 November 2026',
                 lead='Book online in minutes, with free cancellation on most activities and traveller reviews to help you choose.')}
 
 def esc(t): return html.escape(t, quote=False)
