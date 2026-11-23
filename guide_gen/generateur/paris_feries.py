@@ -6,7 +6,7 @@ def body(lang):
     if lang=='fr':
         return ('<p>Noël 2026 et le Jour de l’An 2027 tombent tous les deux un vendredi. Beaucoup de grands musées et monuments de Paris ferment ces jours-là, mais pas tous : voici ce qui reste ouvert, ce qui ferme, et nos idées pour en profiter. Liste établie à partir des horaires de nos guides, relevés en novembre 2026.</p>'
          '\n<h2>Ouvert le 25 décembre et le 1er janvier</h2><ul>'
-         '<li><a href="../../paris/tour-eiffel/">La tour Eiffel</a> : ouverte tous les jours, y compris le 25 décembre et le 1er janvier, à partir de 9 h 30 ; le 31 décembre, elle ferme plus tôt, vers 18 h 30.</li>'
+         '<li><a href="../../paris/tour-eiffel/">La tour Eiffel</a> : ouverte tous les jours, y compris le 25 décembre et le 1er janvier, à partir de 9 h 30 ; le 31 décembre, elle ferme plus tôt, à 21 h.</li>'
          '<li><a href="../../paris/notre-dame/">Notre-Dame</a> : ouverte tous les jours, entrée gratuite (réservation conseillée).</li>'
          '<li><a href="../../paris/sacre-coeur/">Le Sacré-Cœur</a> : la basilique est ouverte tous les jours de 6 h 30 à 22 h 30, entrée libre.</li>'
          '<li><a href="../../paris/musee-grevin/">Le musée Grévin</a> : ouvert tous les jours, de 9 h 30 à 19 h les jours fériés et pendant les vacances scolaires.</li>'
@@ -31,7 +31,7 @@ def body(lang):
          '<p class="maj">Horaires relevés en novembre 2026 sur nos pages de chaque lieu ; ils peuvent changer, vérifiez avant de partir.</p>')
     return ('<p>Christmas Day 2026 and New Year’s Day 2027 both fall on a Friday. Many of the big museums and monuments in Paris close on those days, but not all: here is what stays open, what closes, and our ideas to make the most of them. List based on the opening times in our guides, checked in November 2026.</p>'
          '\n<h2>Open on 25 December and 1 January</h2><ul>'
-         '<li><a href="../../paris/eiffel-tower/">The Eiffel Tower</a>: open every day, including 25 December and 1 January, from 9.30am; on 31 December it closes earlier, around 6.30pm.</li>'
+         '<li><a href="../../paris/eiffel-tower/">The Eiffel Tower</a>: open every day, including 25 December and 1 January, from 9.30am; on 31 December it closes earlier, at 9pm.</li>'
          '<li><a href="../../paris/notre-dame/">Notre-Dame</a>: open every day, free entry (booking recommended).</li>'
          '<li><a href="../../paris/sacre-coeur/">The Sacré-Cœur</a>: the basilica is open every day from 6.30am to 10.30pm, free entry.</li>'
          '<li><a href="../../paris/musee-grevin/">The Musée Grévin</a>: open every day, from 9.30am to 7pm on public holidays and during the school holidays.</li>'
@@ -64,7 +64,7 @@ P = dict(photo='noel-a-paris', og='noel-a-paris', date='2026-11-23',
   lead='Orsay ouvert le 1er janvier, Louvre et Versailles fermés, Notre-Dame et le Sacré-Cœur tous les jours : le point pour Noël 2026 et le Jour de l’An 2027.',
   body=body('fr'), book_lead='Quelques idées à réserver pour les fêtes.',
   faq=[('Quels musées sont ouverts le 1er janvier à Paris ?','Parmi les grands musées, le musée d’Orsay et le musée de l’Orangerie sont ouverts le 1er janvier ; le Louvre, Versailles, le musée Picasso et le musée Rodin sont fermés. Notre-Dame, le Sacré-Cœur et le musée Grévin sont ouverts tous les jours.'),
-       ('La tour Eiffel est-elle ouverte le 25 décembre et le 1er janvier ?','Oui, la tour Eiffel est ouverte tous les jours, y compris le 25 décembre et le 1er janvier, à partir de 9 h 30. Le 31 décembre, elle ferme plus tôt, vers 18 h 30.'),
+       ('La tour Eiffel est-elle ouverte le 25 décembre et le 1er janvier ?','Oui, la tour Eiffel est ouverte tous les jours, y compris le 25 décembre et le 1er janvier, à partir de 9 h 30. Le 31 décembre 2026, elle ferme plus tôt, à 21 h.'),
        ('Le Louvre est-il ouvert le 25 décembre ?','Non, le Louvre est fermé le 25 décembre, le 1er janvier et le 1er mai, ainsi que tous les mardis.'),
        ('Que faire à Paris le jour de Noël ?','Visiter Notre-Dame ou le Sacré-Cœur, flâner au marché de Noël des Tuileries (ouvert tous les jours jusqu’au 3 janvier 2027), voir les illuminations des Champs-Élysées ou faire une croisière sur la Seine.')],
   cards_t='Nos guides pour les fêtes', cards=[dict(href='idees/reveillon-nouvel-an/',photo='champs-elysees',name='Réveillon du Nouvel An',txt='Feu d’artifice et soirées.'),dict(href='idees/vacances-de-noel-2026/',photo='megeve',name='Vacances de Noël',txt='Du 19 décembre au 4 janvier.'),dict(href='paris/noel-a-paris/',photo='noel-a-paris',name='Noël à Paris',txt='Marchés, vitrines et illuminations.')]),
@@ -75,7 +75,7 @@ P = dict(photo='noel-a-paris', og='noel-a-paris', date='2026-11-23',
   lead='Orsay open on 1 January, the Louvre and Versailles closed, Notre-Dame and the Sacré-Cœur every day: the lowdown for Christmas 2026 and New Year’s Day 2027.',
   body=body('en'), book_lead='A few ideas to book for the holidays.',
   faq=[('Which museums are open on 1 January in Paris?','Among the major museums, the Musée d’Orsay and the Musée de l’Orangerie are open on 1 January; the Louvre, Versailles, the Musée Picasso and the Musée Rodin are closed. Notre-Dame, the Sacré-Cœur and the Musée Grévin are open every day.'),
-       ('Is the Eiffel Tower open on Christmas Day and New Year’s Day?','Yes, the Eiffel Tower is open every day, including 25 December and 1 January, from 9.30am. On 31 December it closes earlier, around 6.30pm.'),
+       ('Is the Eiffel Tower open on Christmas Day and New Year’s Day?','Yes, the Eiffel Tower is open every day, including 25 December and 1 January, from 9.30am. On 31 December 2026 it closes earlier, at 9pm.'),
        ('Is the Louvre open on Christmas Day?','No, the Louvre is closed on 25 December, 1 January and 1 May, as well as every Tuesday.'),
        ('What can I do in Paris on Christmas Day?','Visit Notre-Dame or the Sacré-Cœur, stroll around the Tuileries Christmas market (open every day until 3 January 2027), see the Champs-Élysées lights or take a Seine cruise.')],
   cards_t='Our holiday guides', cards=[dict(href='ideas/new-years-eve-france/',photo='champs-elysees',name='New Year’s Eve',txt='Fireworks and parties.'),dict(href='ideas/christmas-holidays-2026/',photo='megeve',name='Christmas holidays',txt='19 December to 4 January.'),dict(href='paris/christmas-in-paris/',photo='noel-a-paris',name='Christmas in Paris',txt='Markets, windows and lights.')]))
