@@ -385,3 +385,10 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Publication : 8673a9e + 35a4031 (FR), 5027085 + 8add4c8 (EN).
 - Stats 7 j hors robots et hors Cannes : 89 vues (FR 59, EN 30), 2 clics partenaires (GYG Grands Boulevards, GYG île Saint-Louis) ; 24 h : 16 vues (FR 10, EN 6), 0 clic. Sources 7 j : Google 27, Gemini 2, Pinterest 1, Brave 1, Baidu 1. Pages les plus vues : accueils, grand-tourmalet (5), route-du-mimosa (3), auron (3), ou-partir-en-france-en-2027 (3).
 - À faire avec navigateur : épingles en file (24 Mont-Saint-Michel, 25 Nice, 26 Cannes, 27 Versailles) ; idée d'épingle « janvier 2027 » ; Search Console : demander l'indexation de idees/ou-partir-en-janvier-2027 et EN ideas/where-to-go-in-france-in-january-2027, EN ideas/paris-christmas-day-new-years-day, + pages en attente (EN pyrenees/lourdes, corsica/cap-corse, basque-country/*, brittany/*…).
+
+## 25/11/2026 (0 h 30) — Accélérer le trafic
+- Constat Search Console FR (28 j) : 8 450 impressions, 25 clics, CTR 0,3 %, position moyenne 41 ; clics seulement sur des requêtes précises et datées. EN : positions 40-75.
+- Fait : titres + descriptions « réponse d'abord » (date d'ouverture, forfait) sur 12 pages FR et 8 pages EN proches de la 1re page (outil retitle.py), FAQ « Quand ferme Val Thorens en 2027 ? » et « Quand ouvre La Mongie en 2026 ? », cartes Marchés de Noël 2026 et Vacances de Noël 2026 en tête de « Idées pour cet hiver » sur l'accueil FR et EN.
+- Liste des requêtes cibles : guide_gen/gsc_cibles.md (à rafraîchir à chaque passage avec navigateur).
+- Tâche de nuit mise à jour : priorité aux pages en positions 5-30 (3-5 requêtes par nuit), nouvelle page seulement en second.
+- Info : d'anciennes adresses de l'époque création de sites (site-internet-pas-cher, site-internet-artisan-batiment, creation-site-internet-cannes) ont encore des impressions (positions 77-86) ; elles renvoient 404 → disparaîtront seules.
