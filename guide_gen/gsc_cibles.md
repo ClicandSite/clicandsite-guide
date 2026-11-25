@@ -1,6 +1,7 @@
 # Cibles Search Console (relevé du 25/11/2026, 28 derniers jours)
 Format : requête | impressions | position moyenne. À rafraîchir à chaque passage « SEO » fait avec navigateur (la tâche de nuit n'a pas accès à la Search Console).
 Méthode : pour chaque requête en position 5-30, la page correspondante doit (1) avoir la réponse exacte dans le titre et la description (date, prix, horaire), (2) une question de FAQ qui reprend la requête, (3) l'info vérifiée dans le texte. Ne pas viser les requêtes très concurrentielles (disneyland paris, tour eiffel, musée grévin seul).
+FAIT le 25/11 (nuit) : route-du-mimosa FR+EN (titre/description « 7, 10-14, 20-21 février », corso de Bormes 20-21/02/2027 ajouté — source CRT Côte d’Azur, FAQ Bormes 2027 + Sainte-Maxime 2027) ; festival-de-cannes FR (titre « du 11 au 22 mai » + FAQ Cinéma de la plage) ; musee-chagall FR+EN (tarif 10 € et horaires dans le titre, FAQ horaires) ; villa-ephrussi-de-rothschild FR+EN (tarif 18 € dans le titre). Restent prioritaires : le mont gros nice, palm beach cannes, eurodisney entrée, EN meribel pedestrian pass (page sans info piétons).
 FAIT le 25/11 : titres/descriptions de val-thorens, font-romeu, auron, montgenevre, chatel, cauterets, grand-tourmalet, peyragudes, megeve, superdevoluy, saint-lary, champs-elysees (FR) ; chatel, la-grave, val-thorens, megeve, montgenevre, auron, superdevoluy, champs-elysees (EN) ; FAQ fermeture Val Thorens 2027 et ouverture La Mongie.
 
 ## FR (clicandsite.fr)

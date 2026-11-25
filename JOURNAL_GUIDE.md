@@ -392,3 +392,15 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Liste des requêtes cibles : guide_gen/gsc_cibles.md (à rafraîchir à chaque passage avec navigateur).
 - Tâche de nuit mise à jour : priorité aux pages en positions 5-30 (3-5 requêtes par nuit), nouvelle page seulement en second.
 - Info : d'anciennes adresses de l'époque création de sites (site-internet-pas-cher, site-internet-artisan-batiment, creation-site-internet-cannes) ont encore des impressions (positions 77-86) ; elles renvoient 404 → disparaîtront seules.
+
+## 25/11/2026 (nuit, 2 h) — routine automatique
+- controle.py : 0 erreur FR et EN (14 avertissements connus chacun).
+- Pages proches de la 1re page (gsc_cibles.md) — titre/description « réponse d'abord » + FAQ (script guide_gen/generateur/seo_1125n.py) :
+  - route-du-mimosa FR+EN (« route du mimosa 2027 » pos 5,4 ; « fete du mimosa bormes 2027 » ; « corso sainte maxime 2027 ») : corso fleuri de Bormes-les-Mimosas 20-21/02/2027 ajouté (marché gratuit le samedi, défilé payant le dimanche, billets sur place — fiche CRT Côte d'Azur mise à jour le 20/11 par la mairie ; heure et tarif non publiés), FAQ Bormes 2027 et Sainte-Maxime 7/02/2027 ; Mandelieu 10-14/02 et Sainte-Maxime 7/02 reconfirmés (CRT).
+  - festival-de-cannes FR (pos 9,8) : titre « du 11 au 22 mai, 80e édition » (dates reconfirmées CRT / Palais des Festivals), FAQ Cinéma de la plage gratuit.
+  - musee-chagall FR+EN (« tarif » pos 10,6, « horaires » 10,7) : 10 € / 12 € expo, fermé mardi dans titre et description (reconfirmé CRT), FAQ horaires.
+  - villa-ephrussi-de-rothschild FR+EN (« tarif » pos 10,2) : 18 € / 12 € / gratuit -7 ans dans titre et description (reconfirmé CRT ; horaires d'hiver ambigus sur la fiche CRT → « tous les jours » non mis dans la description).
+- Saison : réveillon de Nice — programme officiel de la Ville toujours non publié (recherche du 25/11) → inchangé. Pas de nouvelle page cette nuit.
+- Publication : 8c6ee78 + 9e17b92 + 9efd47e (FR), 31dfdb8 + 6b6e43e + fcfdc17 (EN) ; pages build success.
+- Stats 7 j hors robots et hors Cannes : 56 vues dont 20 venant de Google, 1 clic partenaire ; 24 h : 3 vues, 0 clic. Pages les plus vues : accueils, ou-partir-en-france-en-2027, auron, grand-tourmalet, route-du-mimosa (3 chacune).
+- À faire avec navigateur : épingles en file (24 Mont-Saint-Michel, 25 Nice, 26 Cannes, 27 Versailles) ; Search Console : rafraîchir gsc_cibles.md, demander la réindexation de route-du-mimosa (FR+EN) ; pages en attente du 24/11 (ou-partir-en-janvier-2027 + EN, EN paris-christmas-day-new-years-day…).
