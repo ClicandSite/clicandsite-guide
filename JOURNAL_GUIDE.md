@@ -404,3 +404,4 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Publication : 8c6ee78 + 9e17b92 + 9efd47e (FR), 31dfdb8 + 6b6e43e + fcfdc17 (EN) ; pages build success.
 - Stats 7 j hors robots et hors Cannes : 56 vues dont 20 venant de Google, 1 clic partenaire ; 24 h : 3 vues, 0 clic. Pages les plus vues : accueils, ou-partir-en-france-en-2027, auron, grand-tourmalet, route-du-mimosa (3 chacune).
 - À faire avec navigateur : épingles en file (24 Mont-Saint-Michel, 25 Nice, 26 Cannes, 27 Versailles) ; Search Console : rafraîchir gsc_cibles.md, demander la réindexation de route-du-mimosa (FR+EN) ; pages en attente du 24/11 (ou-partir-en-janvier-2027 + EN, EN paris-christmas-day-new-years-day…).
+- 25/11 14h50 Pinterest : publiées 24 Mont-Saint-Michel (Idées de voyage en France) et 25 Nice (Côte d'Azur). Reste : 26 Cannes, 27 Versailles — prévoir de nouvelles images (pages Noël/janvier, ski).
