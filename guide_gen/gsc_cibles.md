@@ -9,6 +9,13 @@ FAIT le 25/11 (soir, EN) : les-menuires (titre « Opens 5 December, Ski Pass » 
 
 FAIT le 27/11 (1 h) : disneyland-paris FR+EN (« eurodisney entrée » pos 5,5 : titre « prix d’entrée dès 62 € », billet daté 1 jour 1 parc 62-100 € adulte relevé sur tickets.disneylandparis.com le 27/11, FAQ en tête) ; EN meribel (« meribel pedestrian pass » : 31,40 €/jour, 284,30 € saison, dès 12,80 € le trajet — skipass-meribel.com, FAQ en tête). Relevé GSC 28 j au 24/11 : 26 clics, 10,2 k impressions, pos 39,5 ; auron 73 imp pos 7,9 ; route du mimosa 42 pos 5,6 ; festival de cannes 2027 55 pos 8,7 ; musée grévin 56 pos 24,9.
 
+## PRIORITÉ DEPUIS LE 27/11 (refus AdSense « contenu à faible valeur » + blocage Pinterest du domaine .fr) — validé par Anthony
+Chaque nuit, en plus (ou à la place) des requêtes ci-dessous, traiter 5 à 8 pages FR (+ leur version EN) :
+1. Alléger les liens partenaires : 3 maximum par page (médiane actuelle 8, 167 pages > 6). Garder le bloc « À réserver » le plus pertinent (1 lien GYG page lieu/produit + 1 lien Viator produit ou dNNN-ttd) et retirer les doublons et blocs répétés ; ne jamais créer de lien /s/ ou searchResults. Commencer par les pages les plus vues (accueils exclus) et les pages ciblées ci-dessous.
+2. Étoffer les pages < 600 mots (23 pages, surtout les pages de régions : lot, chateaux-de-la-loire, pyrenees, aquitaine, provence, corse, pays-basque, alsace, normandie, bretagne, idees ; puis pyrenees/saint-lary, cote-d-azur/3-jours) avec des infos vérifiées et utiles (que voir, quand y aller, comment y aller), pas de remplissage.
+3. Ne rien ajouter sur Anthony (page « Qui sommes-nous », conseils de chauffeur) sans son accord explicite.
+4. Pas de demande de réexamen AdSense ni de recours Pinterest avant plusieurs semaines d'améliorations ; aucune épingle vers clicandsite.fr.
+
 ## FR (clicandsite.fr)
 ouverture auron 2026|54|8,0
 route du mimosa 2027|38|5,4
