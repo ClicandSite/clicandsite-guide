@@ -11,7 +11,7 @@ FAIT le 27/11 (1 h) : disneyland-paris FR+EN (« eurodisney entrée » pos 5,5 :
 
 ## PRIORITÉ DEPUIS LE 27/11 (refus AdSense « contenu à faible valeur » + blocage Pinterest du domaine .fr) — validé par Anthony
 Chaque nuit, en plus (ou à la place) des requêtes ci-dessous, traiter 5 à 8 pages FR (+ leur version EN) :
-1. Alléger les liens partenaires : 3 maximum par page (médiane actuelle 8, 167 pages > 6). Garder le bloc « À réserver » le plus pertinent (1 lien GYG page lieu/produit + 1 lien Viator produit ou dNNN-ttd) et retirer les doublons et blocs répétés ; ne jamais créer de lien /s/ ou searchResults. Commencer par les pages les plus vues (accueils exclus) et les pages ciblées ci-dessous.
+1. NE PAS retirer de liens partenaires : Anthony veut les garder (27/11 15 h 28). Ne rien supprimer en attendant sa décision sur les seuls doublons exacts.
 2. Étoffer les pages < 600 mots (23 pages, surtout les pages de régions : lot, chateaux-de-la-loire, pyrenees, aquitaine, provence, corse, pays-basque, alsace, normandie, bretagne, idees ; puis pyrenees/saint-lary, cote-d-azur/3-jours) avec des infos vérifiées et utiles (que voir, quand y aller, comment y aller), pas de remplissage.
 3. Ne rien ajouter sur Anthony (page « Qui sommes-nous », conseils de chauffeur) sans son accord explicite.
 4. Pas de demande de réexamen AdSense ni de recours Pinterest avant plusieurs semaines d'améliorations ; aucune épingle vers clicandsite.fr.
