@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+"""Retire les liens partenaires en double exact sur une même page (garde le premier). Usage : python3 _outils/dedup.py [dossier] -w"""
 import re,glob,sys,html
 A=re.compile(r'<a\b[^>]*href="(https://www\.(?:viator|getyourguide)[^"]*)"[^>]*>.*?</a>',re.S)
 def norm(h): return html.unescape(h)
@@ -23,4 +25,5 @@ def run(root,write):
             pages+=1
             if write: open(f,'w').write(s.replace(m,m2))
     print(root.split('/')[-1],'pages modifiées',pages,'liens',tot_before,'->',tot_after)
-for r in ['/home/claude/clicandsite-guide','/home/claude/clicandsite-guide-en']: run(r,'-w' in sys.argv)
+roots=[a for a in sys.argv[1:] if a!='-w'] or ['/home/claude/clicandsite-guide','/home/claude/clicandsite-guide-en']
+for r in roots: run(r,'-w' in sys.argv)
