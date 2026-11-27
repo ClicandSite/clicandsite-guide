@@ -6,6 +6,8 @@ FAIT le 25/11 (nuit) : route-du-mimosa FR+EN (titre/description « 7, 10-14, 20-
 FAIT le 25/11 : titres/descriptions de val-thorens, font-romeu, auron, montgenevre, chatel, cauterets, grand-tourmalet, peyragudes, megeve, superdevoluy, saint-lary, champs-elysees (FR) ; chatel, la-grave, val-thorens, megeve, montgenevre, auron, superdevoluy, champs-elysees (EN) ; FAQ fermeture Val Thorens 2027 et ouverture La Mongie.
 FAIT le 25/11 (soir, EN) : les-menuires (titre « Opens 5 December, Ski Pass » + FAQ ski holiday), meribel (titre + description ; pedestrian pass / season pass NON traités : info à vérifier), giverny (titre « Claude Monet’s House and Gardens » + FAQ hiver).
 
+FAIT le 27/11 (1 h) : disneyland-paris FR+EN (« eurodisney entrée » pos 5,5 : titre « prix d’entrée dès 62 € », billet daté 1 jour 1 parc 62-100 € adulte relevé sur tickets.disneylandparis.com le 27/11, FAQ en tête) ; EN meribel (« meribel pedestrian pass » : 31,40 €/jour, 284,30 € saison, dès 12,80 € le trajet — skipass-meribel.com, FAQ en tête). Relevé GSC 28 j au 24/11 : 26 clics, 10,2 k impressions, pos 39,5 ; auron 73 imp pos 7,9 ; route du mimosa 42 pos 5,6 ; festival de cannes 2027 55 pos 8,7 ; musée grévin 56 pos 24,9.
+
 ## FR (clicandsite.fr)
 ouverture auron 2026|54|8,0
 route du mimosa 2027|38|5,4

@@ -420,3 +420,11 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Publication : 75fa760 + 4b1549a (FR), 4285287 + fb554e6 (EN) ; pages build success.
 - Stats 7 j hors robots et hors Cannes : 61 vues dont 23 venant de Google, 1 clic partenaire (GYG île Saint-Louis) ; 24 h : 11 vues dont 5 Google, 0 clic. Pages les plus vues : accueils EN (11) et FR (8), ou-partir-en-france-en-2027 (4), EN la-grave (3), route-du-mimosa (3).
 - À faire avec navigateur : rafraîchir gsc_cibles.md ; prix d'entrée Disneyland (page FR) ; tarif piéton Méribel (EN) ; Search Console : réindexation palm-beach (FR+EN) + pages en attente (EN where-to-go-in-france-in-january-2027, paris-christmas-day-new-years-day, lourdes…) ; nouvelles images d'épingles (file vide : janvier 2027, ski, carnaval/citron).
+
+## 27/11/2026 (1 h) — « SEO » d'Anthony
+- 26/11 : Reels Instagram préparés (guide_gen/reels/reel.py, r10.py, r1112.py ; 1080×1920, 16 s, sans son — Anthony ajoute la musique dans l'appli). 10 Vacances de Noël publié le 25/11 avec story ; 11 Paris et 12 Carnaval envoyés avec légendes. Pinterest a coupé le son du Reel importé (musique Chemical Brothers sous licence Insta) : sans conséquence.
+- 26/11 : titres « Infos pratiques 2026 : … 2027 » corrigés sur 5 pages événements FR+EN.
+- Search Console : réindexation demandée FR palm-beach, route-du-mimosa, champs-elysees, puis « Quota dépassé » (mont-gros non fait).
+- SEO : disneyland-paris FR+EN (prix d'entrée 62-100 € relevé au navigateur sur le site officiel) ; EN meribel forfait piéton (skipass-meribel.com). Script seo_1127.py. Liens partenaires de la page Disney vérifiés en ligne (GYG l2603, Viator d479).
+- Pinterest : épingles 32 (janvier 2027) et 33 (Disneyland) créées et ajoutées aux pages, MAIS Pinterest bloque désormais tout le domaine clicandsite.fr (« Des utilisateurs ont signalé ce lien comme du spam ») — accueil compris ; clicandsite.com passe encore. → NE PLUS ÉPINGLER .fr tant que le blocage n'est pas levé ; ne pas contourner. Recours : formulaire Pinterest « appeals / site_blocked » (à faire par Anthony ou avec son accord). Cause probable : rythme (5 épingles le 25/11) + liens d'affiliation sur un domaine jeune.
+- Stats 7 j hors robots et hors Cannes : 75 vues dont 27 Google, 0 réseaux sociaux, 1 clic partenaire ; 24 h : 16 vues.
