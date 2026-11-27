@@ -429,3 +429,18 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Pinterest : épingles 32 (janvier 2027) et 33 (Disneyland) créées et ajoutées aux pages, MAIS Pinterest bloque désormais tout le domaine clicandsite.fr (« Des utilisateurs ont signalé ce lien comme du spam ») — accueil compris ; clicandsite.com passe encore. → NE PLUS ÉPINGLER .fr tant que le blocage n'est pas levé ; ne pas contourner. Recours : formulaire Pinterest « appeals / site_blocked » (à faire par Anthony ou avec son accord). Cause probable : rythme (5 épingles le 25/11) + liens d'affiliation sur un domaine jeune.
 - Stats 7 j hors robots et hors Cannes : 75 vues dont 27 Google, 0 réseaux sociaux, 1 clic partenaire ; 24 h : 16 vues.
 - 27/11 1 h 40 AdSense : clicandsite.fr REFUSÉ le 27/11 à 0 h 41 — « Contenu à faible valeur informative » (valeur unique substantielle, présence cohérente, intérêt des utilisateurs). ads.txt autorisé. clicandsite.com toujours « En préparation », ads.txt « Introuvable » (dernier contrôle AdSense 17/11, fichier pourtant en ligne). Ne PAS redemander d'examen tout de suite : améliorer d'abord (valeur propre, moins de blocs partenaires, pages minces). Même signal que le blocage Pinterest du même jour.
+
+## 27/11/2026 (nuit, 2 h) — routine automatique
+- controle.py : 0 erreur FR et EN.
+- Pages proches de la 1re page (script guide_gen/generateur/seo_1127n.py), faits repris des pages déjà vérifiées, « Mis à jour le 27 novembre 2026 » :
+  - superdevoluy FR+EN (« forfait la joue du loup 2027 » pos 7,8) : titre « La Joue du Loup et SuperDévoluy 2027 : forfait 46 € », description chiffrée (46/39/226 €, 12/12/2026-11/04/2027), FAQ en tête.
+  - biarritz FR+EN (« visiter biarritz » 20,5, « en une journée » 23,7) : titre « Visiter Biarritz en une journée : que voir, que faire », FAQ FR « Que visiter à Biarritz ? ».
+  - colline-du-chateau FR (« visites colline du château » 17,2) : titre « gratuit, ascenseur », FAQ « Comment visiter la colline du Château à Nice ? ».
+  - plages-electroniques FR+EN (pos 16,6) : dates 6-8 août 2027 dans titre et description.
+  - Non traité : Val Thorens / Tignes « a ouvert » — ouverture du 21/11 seulement annoncée (guide-ski, skiinfo sponsorisé), pas de confirmation officielle lisible.
+- Saison : réveillon de Nice — programme officiel de la Ville toujours non publié (recherche du 27/11) → inchangé. Carnaval : tarifs tribunes toujours attendus (janvier).
+- Pas de nouvelle page : après le refus AdSense « faible valeur » et le blocage Pinterest, priorité à l'enrichissement des pages existantes.
+- ATTENTION outil : les clones /home/claude étaient superficiels (shallow) → sitemap_dates.py a daté 162 pages FR au 18/11 (au lieu du 17/11). Corrigé : git fetch --unshallow puis sitemap relancé (commit d9932069). Toujours vérifier `git rev-parse --is-shallow-repository` avant sitemap_dates.py.
+- Publication : fea57f8 + 215e8f2 + d993206 (FR), 5437359 + e96d388 (EN) ; pages build success.
+- Stats hors robots et hors Cannes : 24 h 16 vues dont 5 Google, 0 clic ; 7 j 75 vues dont 27 Google, 1 clic partenaire. Pages les plus vues 7 j : accueils EN (11) et FR (10), route-du-mimosa (5), ou-partir-en-france-en-2027 (4), EN la-grave (3), auron (3).
+- À faire avec navigateur : rafraîchir gsc_cibles.md ; confirmer l'ouverture de Val Thorens et Tignes ; Search Console : réindexation superdevoluy, biarritz, colline-du-chateau, plages-electroniques (+ EN), mont-gros ; Pinterest .fr bloqué (recours à décider par Anthony).
