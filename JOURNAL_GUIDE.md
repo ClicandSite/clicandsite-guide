@@ -449,3 +449,18 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - ATTENTION winter_gen.acts_from(root, path, idx) : le ménage du 27/11 a retiré des cartes « act » sur ~200 pages → les index idx ont changé : vérifier le titre de la carte copiée avant de l'utiliser.
 - À propos FR/EN : description corrigée (disait « ne donne ni prix ni horaires », contraire au contenu).
 - Vérif visuelle en ligne de la recherche NON faite (Mac déconnecté) → à faire au retour d'Anthony.
+
+## 28/11/2026 (nuit) — routine automatique
+- Les clones /home/claude étaient en HEAD détaché (= origin/main) et superficiels → git fetch --unshallow, travail en HEAD détaché, push HEAD:main (le reset --hard a été refusé par le garde-fou, inutile ici).
+- controle.py : 0 erreur FR et EN (14 avertissements chacun, connus).
+- Pages proches de la 1re page (scripts guide_gen/generateur/seo_1128n.py + lot_grottes_1128.py), « Mis à jour le 28 novembre 2026 » :
+  - musee-grevin FR+EN (« musée grévin » 27,2 ; « réservation » 17,3 ; « code promo » 20,8) : titre « réservation, prix et horaires 2026 » ; prix corrigés : guichet 28 € adulte / 19,80 € enfant (tarifs.org vérifié le 27/11 + cometoparis) ; l'ancien « billet en ligne 19 € / 16,50 € » retiré (billet daté variable, 21 à 23 € selon les sources → pas de chiffre) ; FAQ « Comment réserver le musée Grévin moins cher ? ».
+  - musee-d-orsay FR+EN (« nocturne orsay jeudi » 15,7) : titre « nocturne du jeudi jusqu'à 21 h 45, tarifs », FAQ nocturne précisée (21 h 45) + FAQ tarif nocturne 12 € (faits déjà dans la page ; musee-orsay.fr interdit la lecture automatique).
+  - massif-de-l-esterel FR+EN (« criques estérel » 16,7 ; « corniche d or » 13,8) : titre « corniche d'Or, criques rouges et randonnées », FAQ criques + « Où commence la corniche d'Or ? ».
+  - lot (hub, 312 mots, « grottes du lot » pos 6) FR+EN : section « Les grottes du Lot » (Padirac, Pech Merle, Lacave, Cougnac ; saisons 2027 Pech Merle 27/03-14/11, Cougnac 4/04-31/10 — fiches CRT Occitanie lues le 28/11), titre/description « grottes ».
+  - grotte-du-pech-merle FR+EN : saison 2027 dans la FAQ + FAQ tarifs (dès 17 €, 14 € 15-17 ans, 9 € 5-14 ans).
+- Saison : réveillon de Nice — programme officiel de la Ville toujours non publié (recherche du 28/11) → inchangé. Val Thorens / Tignes : ouverture du 21/11 toujours sans confirmation officielle lisible.
+- Pas de nouvelle page (priorité à l'enrichissement après le refus AdSense).
+- Publication : c7bac842 + 2f8c2c2b (FR), 6c56f874 + d0724f59 (EN) ; pages build success.
+- Stats hors robots et hors Cannes : 24 h 18 vues dont 4 Google, 0 clic ; 7 j 83 vues dont 29 Google, 1 clic partenaire. Pages les plus vues 7 j : accueils (17), route-du-mimosa (5), ou-partir-en-france-en-2027 (4), auron (3), mandelieu-la-napoule (3).
+- À faire avec navigateur : rafraîchir gsc_cibles.md ; prix du billet daté Grévin sur grevin-paris.com (pour remettre un « dès X € ») ; Search Console : réindexation musee-grevin, musee-d-orsay, massif-de-l-esterel, lot (+ EN) ; vérif visuelle de la recherche et du ménage du 27/11 ; Pinterest .fr toujours bloqué (recours à décider par Anthony).
