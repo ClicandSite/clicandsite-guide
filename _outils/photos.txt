@@ -89,3 +89,4 @@ cancale.jpg https://upload.wikimedia.org/wikipedia/commons/2/26/France_Cancale_b
 # fait: corte.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Citadelle_de_Corte%2C_Corte%2C_Corsica%2C_France.jpg/1920px-Citadelle_de_Corte%2C_Corte%2C_Corsica%2C_France.jpg
 # fait: cap-corse.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Brando-Erbalunga.jpg/1920px-Brando-Erbalunga.jpg
 # fait: lourdes.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/00_3098._Basilica_of_the_Immaculate_Conception.jpg/1920px-00_3098._Basilica_of_the_Immaculate_Conception.jpg
+# fait 28/11: cauterets.jpg https://unsplash.com/photos/sE845f7OL18 (Ben Grayland, Licence Unsplash, lieu Cauterets) — remplace le portrait de Yoann Boyer
