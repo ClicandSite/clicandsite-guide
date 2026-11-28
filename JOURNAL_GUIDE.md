@@ -464,3 +464,9 @@ Extraire toutes les pages de `main` en données, écrire un `build.py` unique qu
 - Publication : c7bac842 + 2f8c2c2b (FR), 6c56f874 + d0724f59 (EN) ; pages build success.
 - Stats hors robots et hors Cannes : 24 h 18 vues dont 4 Google, 0 clic ; 7 j 83 vues dont 29 Google, 1 clic partenaire. Pages les plus vues 7 j : accueils (17), route-du-mimosa (5), ou-partir-en-france-en-2027 (4), auron (3), mandelieu-la-napoule (3).
 - À faire avec navigateur : rafraîchir gsc_cibles.md ; prix du billet daté Grévin sur grevin-paris.com (pour remettre un « dès X € ») ; Search Console : réindexation musee-grevin, musee-d-orsay, massif-de-l-esterel, lot (+ EN) ; vérif visuelle de la recherche et du ménage du 27/11 ; Pinterest .fr toujours bloqué (recours à décider par Anthony).
+
+## 28/11/2026 (13 h) — « SEO en mode turbo » d'Anthony
+- Pas de navigateur (Mac déconnecté, Chrome absent, WebFetch sans approbation) → vérif visuelle recherche + ménage toujours à faire ; Search Console non faite.
+- 9 pages régions étoffées FR+EN (hubs les plus minces) : section « … en un coup d'œil » (id="en-bref") = tableau .tbl (dates, prix 2026, accès repris des guides enfants déjà vérifiés) + conseils d'organisation avec liens internes : pyrenees, chateaux-de-la-loire/loire-valley, provence, alsace, aquitaine, corse/corsica, pays-basque/basque-country, normandie/normandy, bretagne/brittany. Scripts hubs_1128.py, hubs2_1128.py. Commits 6ef3cf23+fcebdc50 (FR), cba3d7ea+a2344f1c (EN). controle 0 erreur. Clones unshallow avant sitemap.
+- Reel 13 « Skier dans les Pyrénées » (r13.py) envoyé ; photo de cauterets.jpg = un portrait (homme qui tend la main), inutilisable en Reel et douteuse en image principale de la page Cauterets → à remplacer par une vraie photo du cirque du Lys (licence vérifiée).
+- Stats 7 j hors robots : 81 vues, 29 Google, 3 réseaux sociaux, 1 clic partenaire ; 24 h : 9 vues.
